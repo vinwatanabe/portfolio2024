@@ -6,8 +6,8 @@ import BlobAbout from '../images/blob_about.svg';
 
 const Homepage = () => {
 	return (
-		<div className='font-inter text-base text-lightBlue mx-10'>
-			<div className='relative overflow-hidden mb-36'>
+		<div className='font-inter text-base text-lightBlue'>
+			<div className='relative overflow-hidden mb-36 mx-10'>
 				<Menu />
 
 				<div className='flex items-end h-[calc(100vh-100px)]'>
@@ -30,11 +30,11 @@ const Homepage = () => {
 			</div>
 
 			<div className='relative overflow-hidden'>
-				<picture className='absolute w-[80%] top-[40%] translate-y-[-50%] translate-x-[-10%] rotate-180'>
+				<picture className='absolute top-[45%] translate-y-[-50%] translate-x-[-20%] rotate-180'>
 					<img src={BlobAbout} alt='' />
 				</picture>
 
-				<div className='flex flex-row justify-end'>
+				<div className='flex flex-row justify-end mx-10'>
 					<div className='basis-1/2 z-[999]'>
 						<div className='mb-20'>
 							<p className='font-bebas text-section-title text-orange mb-3'>
