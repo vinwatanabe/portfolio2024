@@ -7,7 +7,7 @@ function App() {
 	return (
 		<>
 			<Router>
-				<div>
+				<div className='bg-darkBlue'>
 					<AppRoutes />
 				</div>
 			</Router>
