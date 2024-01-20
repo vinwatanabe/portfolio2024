@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import EmailIcon from '../images/email_icon.svg';
-import GitHubIcon from '../images/github_icon.svg';
-import LinkedInIcon from '../images/linkedin_icon.svg';
 
 const ContactIcons = ({ justification }) => {
 	return (
