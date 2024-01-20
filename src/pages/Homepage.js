@@ -3,11 +3,12 @@ import Menu from '../components/Menu';
 import ContactIcons from '../components/ContactIcons';
 import Blob from '../images/blob.svg';
 import BlobAbout from '../images/blob_about.svg';
+import ProjectCard from '../components/ProjectCard';
 
 const Homepage = () => {
 	return (
 		<div className='font-inter text-base text-lightBlue'>
-			<div className='relative overflow-hidden mb-36 mx-10'>
+			<div className='relative overflow-hidden mb-40 mx-10'>
 				<Menu />
 
 				<div className='flex items-end h-[calc(100vh-100px)]'>
@@ -24,7 +25,7 @@ const Homepage = () => {
 							specialized in building and designing{' '}
 							<span className='text-orange'>awesome digital experiences</span>
 						</p>
-						<ContactIcons />
+						<ContactIcons justification={'justify-start'} />
 					</div>
 				</div>
 			</div>
@@ -105,7 +106,7 @@ const Homepage = () => {
 							</ul>
 						</div>
 
-						<div className='mb-28'>
+						<div className='mb-40'>
 							<p className='font-bebas text-section-subtitle text-orange mb-3'>
 								Skills
 							</p>
@@ -135,6 +136,33 @@ const Homepage = () => {
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+
+			<div className='mx-10 mb-40'>
+				<p className='font-bebas text-orange text-section-title mb-8'>
+					\\Projects
+				</p>
+
+				<div className='flex flex-col gap-28'>
+					<ProjectCard position={0} />
+					<ProjectCard position={1} />
+					<ProjectCard position={2} />
+				</div>
+			</div>
+
+			<div className='flex flex-row mx-10 justify-center pb-24'>
+				<div className='flex flex-col basis-1/2 text-center'>
+					<p className='font-bebas text-orange text-section-title mb-6'>
+						\\Get in touch
+					</p>
+					<p className='mb-6'>
+						Thanks for exploring my portfolio! I'm thrilled you stopped by. Got
+						questions, ideas, or just want to chat? I'd love to hear from you!
+						Drop me a message—I'm just a click away. Let's make something
+						awesome together!{' '}
+					</p>
+					<ContactIcons justification={'justify-center'} />
 				</div>
 			</div>
 		</div>
