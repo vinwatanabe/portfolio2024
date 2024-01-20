@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1427.888" height="1444.264" viewBox="0 0 1427.888 1444.264">
+  <filter id="blurFilter">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="35" />
+  </filter>
+
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.001" y1="0.369" x2="0.283" y2="0.272" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e65805"/>
+      <stop offset="1" stop-color="#006588"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1" data-name="Path 1" d="M275.176,31c200.139,0,139.753,168.8,366.175,299.379,139.753,74.314,111.5,264.548,56.335,326.982-66.308,75.041-217.157,50.958-326.633,50.958C170.914,708.319-104,570.031-104,373.906S75.037,31,275.176,31Z" transform="translate(223.958 719.536) rotate(-49)" fill="url(#linear-gradient)" filter="url(#blurFilter)"/>
+</svg>
