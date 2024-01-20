@@ -14,11 +14,11 @@ module.exports = {
 		},
 		extend: {
 			fontSize: {
-				'text-base': ['18px', '24px'],
-				'text-info': ['18px', '28px'],
-				'section-title': ['60px', '60px'],
-				'section-subtitle': ['40px', '40px'],
-				'main-title': ['110px', '96px'],
+				'text-base': ['1.125em', '24px'],
+				'text-info': ['1.125em', '28px'],
+				'section-title': ['3.75em', '60px'],
+				'section-subtitle': ['2.5em', '40px'],
+				'main-title': ['6.875em', '96px'],
 			},
 		},
 	},

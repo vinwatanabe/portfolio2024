@@ -4,7 +4,7 @@ import MenuIcon from '../images/menu_icon.svg';
 
 const Menu = () => {
 	return (
-		<menu className='flex flex-row justify-between py-8'>
+		<menu className='flex flex-row justify-between items-center py-8 mx-5 sm:mx-10'>
 			<Link to={'/'}>
 				<p className='font-bebas text-3xl text-orange'>Vinicius Watanabe</p>
 			</Link>

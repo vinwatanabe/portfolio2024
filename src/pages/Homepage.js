@@ -8,35 +8,35 @@ import ProjectCard from '../components/ProjectCard';
 const Homepage = () => {
 	return (
 		<div className='font-inter text-base text-lightBlue'>
-			<div className='relative overflow-hidden mb-40 mx-10'>
+			<div className='relative overflow-hidden mb-40'>
+				<picture className='absolute w-[200%] sm:w-[80%] z-0 top-[40%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
+					<img src={Blob} alt='' />
+				</picture>
+
 				<Menu />
 
-				<div className='flex items-end h-[calc(100vh-100px)]'>
-					<picture className='absolute w-[90%] z-0 top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
-						<img src={Blob} alt='' />
-					</picture>
-
+				<div className='flex items-end h-[calc(100vh-100px)] mx-10'>
 					<div className='flex flex-col w-96 mb-10 z-[999]'>
-						<h1 className='font-bebas text-main-title text-orange'>
+						<h1 className='font-bebas text-orange text-7xl sm:text-main-title text-center sm:text-start'>
 							Front-end developer
 						</h1>
-						<p className='pb-4'>
+						<p className='pb-4 text-center sm:text-start'>
 							<span className='text-orange'>Front-end Developer</span>{' '}
 							specialized in building and designing{' '}
 							<span className='text-orange'>awesome digital experiences</span>
 						</p>
-						<ContactIcons justification={'justify-start'} />
+						<ContactIcons justification={'sm:justify-start justify-center'} />
 					</div>
 				</div>
 			</div>
 
 			<div className='relative overflow-hidden'>
-				<picture className='absolute top-[45%] translate-y-[-50%] translate-x-[-20%] rotate-180'>
+				<picture className='absolute top-[45%] translate-y-[-50%] translate-x-[-20%] rotate-180 hidden sm:block'>
 					<img src={BlobAbout} alt='' />
 				</picture>
 
-				<div className='flex flex-row justify-end mx-10'>
-					<div className='basis-1/2 z-[999]'>
+				<div className='flex flex-row justify-end mx-5 sm:mx-10'>
+					<div className='sm:basis-1/2 z-[999] text-center sm:text-start'>
 						<div className='mb-20'>
 							<p className='font-bebas text-section-title text-orange mb-3'>
 								\\About me
@@ -111,24 +111,18 @@ const Homepage = () => {
 								Skills
 							</p>
 
-							<div className='flex flex-row justify-between'>
-								<ul className='list-disc'>
+							<div className='flex flex-col sm:flex-row'>
+								<ul className='sm:list-disc columns-1 sm:columns-3 sm:gap-20'>
 									<li>Javascript (ES6+)</li>
 									<li>React</li>
 									<li>Typescript</li>
 									<li>NodeJS</li>
 									<li>MongoDB</li>
-								</ul>
-
-								<ul className='list-disc'>
 									<li>Express</li>
 									<li>HTML</li>
 									<li>CSS</li>
 									<li>Tailwind</li>
 									<li>Bootstrap</li>
-								</ul>
-
-								<ul className='list-disc'>
 									<li>Figma</li>
 									<li>Adobe XD</li>
 									<li>Photoshop</li>
@@ -139,20 +133,20 @@ const Homepage = () => {
 				</div>
 			</div>
 
-			<div className='mx-10 mb-40'>
+			<div className='mx-5 sm:mx-10 mb-40 text-center sm:text-start'>
 				<p className='font-bebas text-orange text-section-title mb-8'>
 					\\Projects
 				</p>
 
 				<div className='flex flex-col gap-28'>
-					<ProjectCard position={0} />
-					<ProjectCard position={1} />
-					<ProjectCard position={2} />
+					<ProjectCard position={0} ghUrl={'#!'} projectUrl={'#!'} />
+					<ProjectCard position={1} ghUrl={'#!'} projectUrl={'#!'} />
+					<ProjectCard position={2} ghUrl={'#!'} projectUrl={'#!'} />
 				</div>
 			</div>
 
-			<div className='flex flex-row mx-10 justify-center pb-24'>
-				<div className='flex flex-col basis-1/2 text-center'>
+			<div className='flex flex-row mx-5 sm:mx-10 justify-center pb-24'>
+				<div className='flex flex-col sm:basis-1/2 text-center'>
 					<p className='font-bebas text-orange text-section-title mb-6'>
 						\\Get in touch
 					</p>
