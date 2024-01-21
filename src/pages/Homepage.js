@@ -7,7 +7,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const Homepage = () => {
 	return (
-		<div className='font-inter text-base text-lightBlue'>
+		<div className='font-inter text-base text-lightBlue' id='home'>
 			<div className='relative overflow-hidden mb-40'>
 				<picture className='absolute w-[200%] sm:w-[80%] z-0 top-[40%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
 					<img src={Blob} alt='' />
@@ -30,7 +30,7 @@ const Homepage = () => {
 				</div>
 			</div>
 
-			<div className='relative overflow-hidden'>
+			<div className='relative overflow-hidden' id='about'>
 				<picture className='absolute top-[45%] translate-y-[-50%] translate-x-[-20%] rotate-180 hidden sm:block'>
 					<img src={BlobAbout} alt='' />
 				</picture>
@@ -133,7 +133,9 @@ const Homepage = () => {
 				</div>
 			</div>
 
-			<div className='mx-5 sm:mx-10 mb-40 text-center sm:text-start'>
+			<div
+				className='mx-5 sm:mx-10 mb-40 text-center sm:text-start'
+				id='projects'>
 				<p className='font-bebas text-orange text-section-title mb-8'>
 					\\Projects
 				</p>
@@ -145,7 +147,9 @@ const Homepage = () => {
 				</div>
 			</div>
 
-			<div className='flex flex-row mx-5 sm:mx-10 justify-center pb-24'>
+			<div
+				className='flex flex-row mx-5 sm:mx-10 justify-center pb-24'
+				id='contact'>
 				<div className='flex flex-col sm:basis-1/2 text-center'>
 					<p className='font-bebas text-orange text-section-title mb-6'>
 						\\Get in touch
