@@ -1,40 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProjectImage from '../assets/images/project-image.jpg';
 // import Button from './Button';
 
-const ProjectCard = ({ position, ghUrl, projectUrl }) => {
+const ProjectCard = ({ position, project }) => {
 	const flexDirection =
 		position % 2 ? 'flex-col sm:flex-row-reverse' : 'flex-col sm:flex-row';
 
 	return (
 		<div className={`flex ${flexDirection} gap-10 items-center`}>
 			<picture className='basis-0 sm:basis-1/2'>
-				<img className='rounded-2xl' src={ProjectImage} alt='' />
+				<img
+					className='rounded-2xl'
+					src={process.env.PUBLIC_URL + `/images/thumbnails/${project.image}`}
+					alt=''
+				/>
 			</picture>
 
 			<div className='flex flex-col basis-0 sm:basis-1/2'>
 				<p className='font-bebas text-section-subtitle text-orange mb-1'>
-					Recco
+					{project.title}
 				</p>
 
-				<p className='text-orange mb-3'>2023 - Frontend & Backend</p>
+				<p className='text-orange mb-3'>
+					{project.year} - {project.type}
+				</p>
 
 				<hr className='text-orange w-12 border-2 mb-3 mx-auto sm:mx-0' />
 
-				<p className='mb-3'>
-					A web app for visualizing personalized Spotify data. View your top
-					artists, top tracks, recently played tracks, and detailed audio
-					information about each track. Create and save new playlists of
-					recommended tracks based on your existing playlists and more.
-				</p>
+				<p className='mb-3'>{project.description}</p>
 
-				<p className='text-orange mb-4'>React | NodeJS | Redux | MongoDB</p>
+				<p className='text-orange mb-4'>{project.technology}</p>
 
 				{/* <Button text={'View project'} url={'/project'} /> */}
 
 				<div className='flex flex-row gap-5 justify-center sm:justify-start'>
-					<Link to={ghUrl}>
+					<Link to={project.github}>
 						<svg
 							className='stroke-lightBlue hover:stroke-orange'
 							xmlns='http://www.w3.org/2000/svg'
@@ -66,7 +66,7 @@ const ProjectCard = ({ position, ghUrl, projectUrl }) => {
 						</svg>
 					</Link>
 
-					<Link to={projectUrl}>
+					<Link to={project.projectUrl}>
 						<svg
 							className='fill-lightBlue hover:fill-orange'
 							id='open_in_new_FILL0_wght400_GRAD0_opsz40'

@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Febraban news",
+		"year": "2023",
+		"type": "Front-end & Back-end",
+		"description": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+		"technology": "React | MongoDB | Redux | Typescript",
+		"github": "https://github.com/vinwatanabe/portfolio_2024",
+		"projectUrl": "https://www.netflix.com/ca/",
+		"image": "project-image.jpg"
+	},
+	{
+		"title": "Mimo Restaurante",
+		"year": "2020",
+		"type": "Front-end",
+		"description": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+		"technology": "React | MongoDB | Tailwind",
+		"github": "https://github.com/vinwatanabe/portfolio_2024",
+		"projectUrl": "https://www.netflix.com/ca/",
+		"image": "project-image.jpg"
+	}
+]

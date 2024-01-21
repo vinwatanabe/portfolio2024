@@ -4,6 +4,7 @@ import ContactIcons from '../components/ContactIcons';
 import Blob from '../assets/images/blob.svg';
 import BlobAbout from '../assets/images/blob_about.svg';
 import ProjectCard from '../components/ProjectCard';
+import ProjectDescription from '../assets/json/projectDescription.json';
 
 const Homepage = () => {
 	return (
@@ -141,9 +142,13 @@ const Homepage = () => {
 				</p>
 
 				<div className='flex flex-col gap-28'>
-					<ProjectCard position={0} ghUrl={'#!'} projectUrl={'#!'} />
-					<ProjectCard position={1} ghUrl={'#!'} projectUrl={'#!'} />
-					<ProjectCard position={2} ghUrl={'#!'} projectUrl={'#!'} />
+					{ProjectDescription.map((project, index) => {
+						return (
+							<div key={index}>
+								<ProjectCard position={index} project={project} />
+							</div>
+						);
+					})}
 				</div>
 			</div>
 
