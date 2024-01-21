@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
-import MenuIcon from '../images/menu_icon.svg';
+import MenuIcon from '../assets/images/menu_icon.svg';
 
 const Menu = () => {
 	return (
@@ -21,13 +21,13 @@ const Menu = () => {
 			<div className='hidden md:block z-50'>
 				<ul className='flex flex-row gap-8 font-bold items-center'>
 					<a href='#about'>
-						<li>About me</li>
+						<li className='hover:text-orange'>About me</li>
 					</a>
 					<a href='#projects'>
-						<li>Projects</li>
+						<li className='hover:text-orange'>Projects</li>
 					</a>
 					<a href='#contact'>
-						<li>Contact</li>
+						<li className='hover:text-orange'>Contact</li>
 					</a>
 					<li>
 						<Button text={'Resume'} url={'#!'} />

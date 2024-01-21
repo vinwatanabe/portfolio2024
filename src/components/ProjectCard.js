@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProjectImage from '../images/project-image.jpg';
+import ProjectImage from '../assets/images/project-image.jpg';
 // import Button from './Button';
 
 const ProjectCard = ({ position, ghUrl, projectUrl }) => {

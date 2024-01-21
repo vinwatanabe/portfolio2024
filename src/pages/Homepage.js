@@ -1,8 +1,8 @@
 import React from 'react';
 import Menu from '../components/Menu';
 import ContactIcons from '../components/ContactIcons';
-import Blob from '../images/blob.svg';
-import BlobAbout from '../images/blob_about.svg';
+import Blob from '../assets/images/blob.svg';
+import BlobAbout from '../assets/images/blob_about.svg';
 import ProjectCard from '../components/ProjectCard';
 
 const Homepage = () => {
