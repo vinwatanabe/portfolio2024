@@ -1,17 +1,43 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import './Homepage.css';
+import blobTop from '../animation/animations';
 import Menu from '../components/Menu';
 import ContactIcons from '../components/ContactIcons';
-import Blob from '../assets/images/blob.svg';
 import BlobAbout from '../assets/images/blob_about.svg';
 import ProjectCard from '../components/ProjectCard';
 import ProjectDescription from '../assets/json/projectDescription.json';
 
 const Homepage = () => {
+	useEffect(() => {
+		blobTop('#blob-top path');
+	}, []);
+
 	return (
 		<div className='font-inter text-base text-lightBlue' id='home'>
 			<div className='relative overflow-hidden mb-40'>
-				<picture className='absolute w-[200%] sm:w-[80%] z-0 top-[40%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
-					<img src={Blob} alt='' />
+				<picture className='absolute z-0 top-[40%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
+					<svg
+						id='blob-top'
+						className='mx-auto w-[100vh] sm:w-auto h-[180vh]'
+						viewBox='0 0 1427.9 1444.3'
+						xmlns='http://www.w3.org/2000/svg'>
+						<filter id='b'>
+							<feGaussianBlur in='SourceGraphic' stdDeviation='35' />
+						</filter>
+						<defs>
+							<linearGradient id='a' x1='1.001' x2='.283' y1='.369' y2='.272'>
+								<stop stopColor='#e65805' offset='0' />
+								<stop stopColor='#006588' offset='1' />
+							</linearGradient>
+						</defs>
+						<path
+							transform='translate(223.958 719.536) rotate(-49)'
+							d='M275,31c200,0,139,168,366,299,139,74,111,264,56,326-66,75-217,50-326,50.958C170,708-104,570-104,373.906S75,31,275,31Z'
+							fill='url(#a)'
+							filter='url(#b)'
+							data-name='Path 1'
+						/>
+					</svg>
 				</picture>
 
 				<Menu />

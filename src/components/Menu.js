@@ -7,12 +7,12 @@ const Menu = () => {
 	return (
 		<menu className='flex flex-row justify-between items-center py-8 mx-5 sm:mx-10'>
 			<Link to={'/'}>
-				<p className='relative font-bebas text-3xl text-orange z-50'>
+				<p className='relative font-bebas text-3xl text-orange hover:text-lightBlue z-50'>
 					Vinicius Watanabe
 				</p>
 			</Link>
 
-			<div className='block md:hidden'>
+			<div className='block md:hidden z-50'>
 				<Link to={'/project'}>
 					<img src={MenuIcon} alt='Menu icon' />
 				</Link>
