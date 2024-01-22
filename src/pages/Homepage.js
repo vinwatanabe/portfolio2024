@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { blobTop, blobAbout } from '../animation/animations';
+import { blobTop, blobAbout } from '../animation/anime';
 import Menu from '../components/Menu';
 import ContactIcons from '../components/ContactIcons';
 import ProjectCard from '../components/ProjectCard';
