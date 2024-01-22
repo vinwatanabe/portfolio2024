@@ -8,7 +8,7 @@ const ProjectCard = ({ position, project }) => {
 
 	return (
 		<div className={`flex ${flexDirection} gap-10 items-center`}>
-			<picture className='basis-0 sm:basis-1/2'>
+			<picture id='project-card-image' className='basis-0 sm:basis-1/2'>
 				<img
 					className='rounded-2xl'
 					src={process.env.PUBLIC_URL + `/images/thumbnails/${project.image}`}
@@ -16,7 +16,9 @@ const ProjectCard = ({ position, project }) => {
 				/>
 			</picture>
 
-			<div className='flex flex-col basis-0 sm:basis-1/2'>
+			<div
+				id='project-card-text'
+				className='flex flex-col basis-0 sm:basis-1/2'>
 				<p className='font-bebas text-section-subtitle text-orange mb-1'>
 					{project.title}
 				</p>

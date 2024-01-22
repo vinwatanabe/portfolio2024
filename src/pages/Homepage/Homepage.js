@@ -1,14 +1,18 @@
 import React, { useEffect } from 'react';
-import { blobTop, blobAbout } from '../animation/anime';
-import Menu from '../components/Menu';
-import ContactIcons from '../components/ContactIcons';
-import ProjectCard from '../components/ProjectCard';
-import ProjectDescription from '../assets/json/projectDescription.json';
+import './Homepage.css';
+import { blobTop, blobAbout } from '../../animation/anime';
+import { homeAnimation, aboutAnimation } from '../../animation/gsapAnimation';
+import Menu from '../../components/Menu';
+import ContactIcons from '../../components/ContactIcons';
+import ProjectCard from '../../components/ProjectCard';
+import ProjectDescription from '../../assets/json/projectDescription.json';
 
 const Homepage = () => {
 	useEffect(() => {
 		blobTop('#blob-top path');
 		blobAbout('#blob-about path');
+		homeAnimation();
+		aboutAnimation();
 	}, []);
 
 	return (
@@ -43,15 +47,19 @@ const Homepage = () => {
 
 				<div className='flex items-end h-[calc(100vh-100px)] mx-10'>
 					<div className='flex flex-col w-96 mb-10 z-[999]'>
-						<h1 className='font-bebas text-orange text-7xl sm:text-main-title text-center sm:text-start'>
+						<h1
+							id='site-title'
+							className='font-bebas text-orange text-7xl sm:text-main-title text-center sm:text-start'>
 							Front-end developer
 						</h1>
-						<p className='pb-4 text-center sm:text-start'>
+						<p id='site-subtitle' className='pb-4 text-center sm:text-start'>
 							<span className='text-orange'>Front-end Developer</span>{' '}
 							specialized in building and designing{' '}
 							<span className='text-orange'>awesome digital experiences</span>
 						</p>
-						<ContactIcons justification={'sm:justify-start justify-center'} />
+						<div id='contact-information-title'>
+							<ContactIcons justification={'sm:justify-start justify-center'} />
+						</div>
 					</div>
 				</div>
 			</div>
@@ -95,33 +103,41 @@ const Homepage = () => {
 				<div className='flex flex-row justify-end mx-5 sm:mx-10'>
 					<div className='sm:basis-1/2 z-[999] text-center sm:text-start'>
 						<div className='mb-20'>
-							<p className='font-bebas text-section-title text-orange mb-3'>
+							<p
+								id='about-title'
+								className='font-bebas text-section-title text-orange mb-3'>
 								\\About me
 							</p>
-							<p>
-								I'm Vinicius, a developer and former art director/UI designer
-								with experience crafting immersive experiences for advertising
-								agencies such as ID\TBWA, AlmapBBDO and McGarryBowen. While
-								working for these agencies, I had the opportunity to work with
-								global clients like Unicef, Intuit, M&M's, and more. From
-								shaping advertising landscapes to designing web interfaces, my
-								journey is a fusion of visual artistic skills and technical
-								programming knowledge.
-							</p>
-							<p>
-								My passion lies in the transformative power of design and
-								technology — a belief that's driven my career from the world of
-								art direction and design to coding solutions. I've dedicated my
-								craft to making people lives easier through innovative
-								solutions, leaving a lasting impact on user experiences.
-							</p>
+
+							<div id='about-text'>
+								<p>
+									I'm Vinicius, a developer and former art director/UI designer
+									with experience crafting immersive experiences for advertising
+									agencies such as ID\TBWA, AlmapBBDO and McGarryBowen. While
+									working for these agencies, I had the opportunity to work with
+									global clients like Unicef, Intuit, M&M's, and more. From
+									shaping advertising landscapes to designing web interfaces, my
+									journey is a fusion of visual artistic skills and technical
+									programming knowledge.
+								</p>
+								<p>
+									My passion lies in the transformative power of design and
+									technology — a belief that's driven my career from the world
+									of art direction and design to coding solutions. I've
+									dedicated my craft to making people lives easier through
+									innovative solutions, leaving a lasting impact on user
+									experiences.
+								</p>
+							</div>
 						</div>
 
 						<div className='mb-20'>
-							<p className='font-bebas text-section-subtitle text-orange mb-3'>
+							<p
+								id='experience-title'
+								className='font-bebas text-section-subtitle text-orange mb-3'>
 								Experience
 							</p>
-							<ul className='font-bold'>
+							<ul id='experience-text' className='font-bold'>
 								<li>
 									<span className='text-orange'>
 										ID\TBWA - Senior Art Director / UI Designer |
@@ -164,11 +180,13 @@ const Homepage = () => {
 						</div>
 
 						<div className='mb-40'>
-							<p className='font-bebas text-section-subtitle text-orange mb-3'>
+							<p
+								id='skills-title'
+								className='font-bebas text-section-subtitle text-orange mb-3'>
 								Skills
 							</p>
 
-							<div className='flex flex-col sm:flex-row'>
+							<div id='skills-text' className='flex flex-col sm:flex-row'>
 								<ul className='sm:list-disc columns-1 sm:columns-3 sm:gap-20'>
 									<li>Javascript (ES6+)</li>
 									<li>React</li>
@@ -193,7 +211,9 @@ const Homepage = () => {
 			<div
 				className='mx-5 sm:mx-10 mb-40 text-center sm:text-start'
 				id='projects'>
-				<p className='font-bebas text-orange text-section-title mb-8'>
+				<p
+					id='project-title'
+					className='font-bebas text-orange text-section-title mb-8'>
 					\\Projects
 				</p>
 
@@ -212,16 +232,18 @@ const Homepage = () => {
 				className='flex flex-row mx-5 sm:mx-10 justify-center pb-24'
 				id='contact'>
 				<div className='flex flex-col sm:basis-1/2 text-center'>
-					<p className='font-bebas text-orange text-section-title mb-6'>
+					<p
+						id='contact-title'
+						className='font-bebas text-orange text-section-title mb-6'>
 						\\Get in touch
 					</p>
-					<p className='mb-6'>
+					<p id='contact-text' className='mb-6'>
 						Thanks for exploring my portfolio! I'm thrilled you stopped by. Got
 						questions, ideas, or just want to chat? I'd love to hear from you!
 						Drop me a message—I'm just a click away. Let's make something
 						awesome together!{' '}
 					</p>
-					<ContactIcons justification={'justify-center'} />
+					<ContactIcons justification={'contact-icons justify-center'} />
 				</div>
 			</div>
 		</div>

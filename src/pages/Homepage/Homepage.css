@@ -1,0 +1,30 @@
+/* GSAP properties */
+#logo-link,
+#about-link,
+#projects-link,
+#contact-link,
+#resume-link,
+#site-subtitle,
+#contact-information-title,
+.contact-icons {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+	transform: translateY(40px);
+	opacity: 0;
+}
+
+#site-title,
+#about-title,
+#about-text,
+#experience-title,
+#experience-text,
+#skills-title,
+#skills-text,
+#project-title,
+#project-card-image,
+#project-card-text,
+#contact-title,
+#contact-text {
+	clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+	transform: translateY(100px);
+	opacity: 0;
+}
