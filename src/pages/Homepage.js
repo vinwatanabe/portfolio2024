@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
-import blobTop from '../animation/animations';
+import { blobTop, blobAbout } from '../animation/animations';
 import Menu from '../components/Menu';
 import ContactIcons from '../components/ContactIcons';
-import BlobAbout from '../assets/images/blob_about.svg';
 import ProjectCard from '../components/ProjectCard';
 import ProjectDescription from '../assets/json/projectDescription.json';
 
 const Homepage = () => {
 	useEffect(() => {
 		blobTop('#blob-top path');
+		blobAbout('#blob-about path');
 	}, []);
 
 	return (
@@ -58,7 +58,38 @@ const Homepage = () => {
 
 			<div className='relative overflow-hidden' id='about'>
 				<picture className='absolute top-[45%] translate-y-[-50%] translate-x-[-20%] rotate-180 hidden sm:block'>
-					<img src={BlobAbout} alt='' />
+					<svg
+						id='blob-about'
+						xmlns='http://www.w3.org/2000/svg'
+						width='1132.936'
+						height='1121.681'
+						viewBox='0 0 1132.936 1121.681'>
+						<filter id='blurFilter'>
+							<feGaussianBlur in='SourceGraphic' stdDeviation='35' />
+						</filter>
+
+						<defs>
+							<linearGradient
+								id='linear-gradient'
+								x1='0.526'
+								y1='0.946'
+								x2='0.83'
+								y2='0.364'
+								gradientUnits='objectBoundingBox'>
+								<stop offset='0' stopColor='#e65805' />
+								<stop offset='0.381' stopColor='#6e5f49' />
+								<stop offset='1' stopColor='#006588' />
+							</linearGradient>
+						</defs>
+						<path
+							id='Path_5'
+							data-name='Path 5'
+							d='M235.148,31c179,0,125,184,327,326,125,81,99,288,50,356-59,81-194,55-292,55.624C141,770-104,619-104,405.3S56,31,235,31Z'
+							transform='translate(759.378 1008.552) rotate(-169)'
+							fill='url(#linear-gradient)'
+							filter='url(#blurFilter)'
+						/>
+					</svg>
 				</picture>
 
 				<div className='flex flex-row justify-end mx-5 sm:mx-10'>
