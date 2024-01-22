@@ -36,7 +36,7 @@ const ProjectCard = ({ position, project }) => {
 				<div className='flex flex-row gap-5 justify-center sm:justify-start'>
 					<Link to={project.github}>
 						<svg
-							className='stroke-lightBlue hover:stroke-orange'
+							className='stroke-lightBlue hover:stroke-orange ease-in duration-200'
 							xmlns='http://www.w3.org/2000/svg'
 							width='18.797'
 							height='22.005'
@@ -68,7 +68,7 @@ const ProjectCard = ({ position, project }) => {
 
 					<Link to={project.projectUrl}>
 						<svg
-							className='fill-lightBlue hover:fill-orange'
+							className='fill-lightBlue hover:fill-orange ease-in duration-200'
 							id='open_in_new_FILL0_wght400_GRAD0_opsz40'
 							xmlns='http://www.w3.org/2000/svg'
 							width='20'

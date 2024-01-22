@@ -6,7 +6,7 @@ const ContactIcons = ({ justification }) => {
 		<div className={`flex flex-row gap-5 ${justification}`}>
 			<Link to={'mailto:vinicius_watanabe@hotmail.com'}>
 				<svg
-					className='hover:fill-orange fill-lightBlue'
+					className='ease-in duration-200 hover:fill-orange fill-lightBlue'
 					id='mail_FILL0_wght400_GRAD0_opsz48'
 					xmlns='http://www.w3.org/2000/svg'
 					width='25'
@@ -22,7 +22,7 @@ const ContactIcons = ({ justification }) => {
 			</Link>
 			<Link to={'https://github.com/vinwatanabe'} target='blank'>
 				<svg
-					className='stroke-lightBlue hover:stroke-orange'
+					className='stroke-lightBlue hover:stroke-orange ease-in duration-200'
 					xmlns='http://www.w3.org/2000/svg'
 					width='18.797'
 					height='22.005'
@@ -53,7 +53,7 @@ const ContactIcons = ({ justification }) => {
 			</Link>
 			<Link to={'https://www.linkedin.com/in/vinwatanabe/'} target='blank'>
 				<svg
-					className='fill-lightBlue hover:fill-orange'
+					className='fill-lightBlue hover:fill-orange ease-in duration-200'
 					id='linkedin-svgrepo-com'
 					xmlns='http://www.w3.org/2000/svg'
 					width='21.786'

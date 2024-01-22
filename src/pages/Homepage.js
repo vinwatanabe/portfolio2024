@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import './Homepage.css';
 import blobTop from '../animation/animations';
 import Menu from '../components/Menu';
 import ContactIcons from '../components/ContactIcons';
