@@ -7,7 +7,7 @@ const ProjectCard = ({ position, project }) => {
 		position % 2 ? 'flex-col sm:flex-row-reverse' : 'flex-col sm:flex-row';
 
 	const githubLink = (
-		<Link to={project.github}>
+		<Link to={project.github} target='blank'>
 			<svg
 				className='stroke-lightBlue hover:stroke-orange ease-in duration-200'
 				xmlns='http://www.w3.org/2000/svg'
@@ -41,7 +41,7 @@ const ProjectCard = ({ position, project }) => {
 	);
 
 	const projectLink = (
-		<Link to={project.projectUrl}>
+		<Link to={project.projectUrl} target='blank'>
 			<svg
 				className='fill-lightBlue hover:fill-orange ease-in duration-200'
 				id='open_in_new_FILL0_wght400_GRAD0_opsz40'
