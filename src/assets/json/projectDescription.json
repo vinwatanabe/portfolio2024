@@ -1,22 +1,62 @@
 [
 	{
-		"title": "Febraban news",
+		"title": "Tap & Manage",
 		"year": "2023",
-		"type": "Front-end & Back-end",
-		"description": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-		"technology": "React | MongoDB | Redux | Typescript",
-		"github": "https://github.com/vinwatanabe/portfolio_2024",
-		"projectUrl": "https://www.netflix.com/ca/",
-		"image": "project-image.jpg"
+		"type": "Front-end | Back-end | UI Design",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in interdum leo, dictum blandit felis. Vestibulum vitae condimentum orci. Sed egestas augue massa, sit amet iaculis dolor congue sed. Vestibulum scelerisque ipsum et diam semper, et rhoncus nibh scelerisque. Ut lectus eros, aliquet a dignissim non, commodo in nunc. Ut gravida sapien vel sapien dictum molestie. Nullam auctor elementum quam sit amet malesuada. Nulla sed venenatis mauris. Pellentesque non ullamcorper nunc.",
+		"technology": "Lorem | Ipsum | Dolor | Sit | Amet",
+		"github": "https://github.com/vinwatanabe/tapandmanage",
+		"projectUrl": "https://tapandmanage.vercel.app/",
+		"image": "tap-and-manage.jpg"
 	},
 	{
-		"title": "Mimo Restaurante",
+		"title": "VanHike",
+		"year": "2023",
+		"type": "Front-end | UI Design",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in interdum leo, dictum blandit felis. Vestibulum vitae condimentum orci. Sed egestas augue massa, sit amet iaculis dolor congue sed. Vestibulum scelerisque ipsum et diam semper, et rhoncus nibh scelerisque. Ut lectus eros, aliquet a dignissim non, commodo in nunc. Ut gravida sapien vel sapien dictum molestie. Nullam auctor elementum quam sit amet malesuada. Nulla sed venenatis mauris. Pellentesque non ullamcorper nunc.",
+		"technology": "Lorem | Ipsum | Dolor | Sit | Amet",
+		"github": "https://github.com/souzatotolo/VanHike",
+		"projectUrl": "https://project-group5.vercel.app/",
+		"image": "vanhike.jpg"
+	},
+	{
+		"title": "Share & Go",
+		"year": "2022",
+		"type": "Front-end | UI Design",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in interdum leo, dictum blandit felis. Vestibulum vitae condimentum orci. Sed egestas augue massa, sit amet iaculis dolor congue sed. Vestibulum scelerisque ipsum et diam semper, et rhoncus nibh scelerisque. Ut lectus eros, aliquet a dignissim non, commodo in nunc. Ut gravida sapien vel sapien dictum molestie. Nullam auctor elementum quam sit amet malesuada. Nulla sed venenatis mauris. Pellentesque non ullamcorper nunc.",
+		"technology": "Lorem | Ipsum | Dolor | Sit | Amet",
+		"github": "https://github.com/ed-uemura/shareandgo-frontend",
+		"projectUrl": "",
+		"image": "share-and-go.jpg"
+	},
+	{
+		"title": "Tatiane Ichitani Website",
 		"year": "2020",
-		"type": "Front-end",
-		"description": "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-		"technology": "React | MongoDB | Tailwind",
-		"github": "https://github.com/vinwatanabe/portfolio_2024",
-		"projectUrl": "https://www.netflix.com/ca/",
-		"image": "project-image.jpg"
+		"type": "Front-end | UI Design",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in interdum leo, dictum blandit felis. Vestibulum vitae condimentum orci. Sed egestas augue massa, sit amet iaculis dolor congue sed. Vestibulum scelerisque ipsum et diam semper, et rhoncus nibh scelerisque. Ut lectus eros, aliquet a dignissim non, commodo in nunc. Ut gravida sapien vel sapien dictum molestie. Nullam auctor elementum quam sit amet malesuada. Nulla sed venenatis mauris. Pellentesque non ullamcorper nunc.",
+		"technology": "Lorem | Ipsum | Dolor | Sit | Amet",
+		"github": "",
+		"projectUrl": "https://tatianeichitani.com.br/",
+		"image": "tatiane-ichitani.jpg"
+	},
+	{
+		"title": "Converter Link",
+		"year": "2020",
+		"type": "Front-end | UI Design",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in interdum leo, dictum blandit felis. Vestibulum vitae condimentum orci. Sed egestas augue massa, sit amet iaculis dolor congue sed. Vestibulum scelerisque ipsum et diam semper, et rhoncus nibh scelerisque. Ut lectus eros, aliquet a dignissim non, commodo in nunc. Ut gravida sapien vel sapien dictum molestie. Nullam auctor elementum quam sit amet malesuada. Nulla sed venenatis mauris. Pellentesque non ullamcorper nunc.",
+		"technology": "Lorem | Ipsum | Dolor | Sit | Amet",
+		"github": "https://github.com/vinwatanabe/converter-link",
+		"projectUrl": "https://vinwatanabe.github.io/converter-link/",
+		"image": "converter-link.jpg"
+	},
+	{
+		"title": "Speechful",
+		"year": "2020",
+		"type": "Front-end | UI Design",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in interdum leo, dictum blandit felis. Vestibulum vitae condimentum orci. Sed egestas augue massa, sit amet iaculis dolor congue sed. Vestibulum scelerisque ipsum et diam semper, et rhoncus nibh scelerisque. Ut lectus eros, aliquet a dignissim non, commodo in nunc. Ut gravida sapien vel sapien dictum molestie. Nullam auctor elementum quam sit amet malesuada. Nulla sed venenatis mauris. Pellentesque non ullamcorper nunc.",
+		"technology": "Lorem | Ipsum | Dolor | Sit | Amet",
+		"github": "https://github.com/vinwatanabe/speechful",
+		"projectUrl": "https://vinwatanabe.github.io/speechful/",
+		"image": "speechful.jpg"
 	}
 ]
