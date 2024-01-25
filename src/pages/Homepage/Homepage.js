@@ -111,14 +111,13 @@ const Homepage = () => {
 
 							<div id='about-text'>
 								<p>
-									I'm Vinicius, a developer and former art director/UI designer
-									with experience crafting immersive experiences for advertising
-									agencies such as ID\TBWA, AlmapBBDO and McGarryBowen. While
-									working for these agencies, I had the opportunity to work with
-									global clients like Unicef, Intuit, M&M's, and more. From
-									shaping advertising landscapes to designing web interfaces, my
-									journey is a fusion of visual artistic skills and technical
-									programming knowledge.
+									I'm Vinicius, a recently graduated Web Developer and former
+									Art Director/UI Designer with experience crafting immersive
+									experiences for advertising agencies such as ID\TBWA,
+									AlmapBBDO and McGarryBowen. While working for these agencies,
+									I had the opportunity to work with global clients like Unicef,
+									Intuit, M&Ms, Snickers, Pedigree, Santander Bank, Claro, and
+									more.
 								</p>
 								<p>
 									My passion lies in the transformative power of design and
