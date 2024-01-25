@@ -50,7 +50,7 @@ const Homepage = () => {
 						<h1
 							id='site-title'
 							className='font-bebas text-orange text-7xl sm:text-main-title text-center sm:text-start'>
-							Front-end developer
+							Fullstack developer
 						</h1>
 						<p id='site-subtitle' className='pb-4 text-center sm:text-start'>
 							<span className='text-orange'>Front-end Developer</span>{' '}
