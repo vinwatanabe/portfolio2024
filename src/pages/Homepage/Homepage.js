@@ -53,7 +53,7 @@ const Homepage = () => {
 							Fullstack developer
 						</h1>
 						<p id='site-subtitle' className='pb-4 text-center sm:text-start'>
-							<span className='text-orange'>Front-end Developer</span>{' '}
+							<span className='text-orange'>Fullstack Developer</span>{' '}
 							specialized in building and designing{' '}
 							<span className='text-orange'>awesome digital experiences</span>
 						</p>
