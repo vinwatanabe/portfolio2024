@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from './Button';
-import MenuIcon from '../assets/images/menu_icon.svg';
+// import Button from './Button';
+// import MenuIcon from '../assets/images/menu_icon.svg';
 
 const Menu = () => {
 	return (
@@ -31,9 +31,9 @@ const Menu = () => {
 					<a id='contact-link' href='#contact'>
 						<li className='ease-in duration-200 hover:text-orange'>Contact</li>
 					</a>
-					<li id='resume-link'>
+					{/* <li id='resume-link'>
 						<Button text={'Resume'} url={'#!'} />
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</nav>
