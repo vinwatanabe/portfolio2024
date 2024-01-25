@@ -5,7 +5,7 @@ import MenuIcon from '../assets/images/menu_icon.svg';
 
 const Menu = () => {
 	return (
-		<nav className='flex flex-row justify-between items-center py-8 mx-5 sm:mx-10'>
+		<nav className='flex flex-row justify-center sm:justify-between items-center py-8 mx-5 sm:mx-10'>
 			<Link to={'/'}>
 				<p
 					id='logo-link'
@@ -14,11 +14,11 @@ const Menu = () => {
 				</p>
 			</Link>
 
-			<div className='block md:hidden z-50'>
+			{/* <div className='block md:hidden z-50'>
 				<Link to={'/project'}>
 					<img src={MenuIcon} alt='Menu icon' />
 				</Link>
-			</div>
+			</div> */}
 
 			<div className='hidden md:block z-50'>
 				<ul className='flex flex-row gap-8 font-bold items-center'>
