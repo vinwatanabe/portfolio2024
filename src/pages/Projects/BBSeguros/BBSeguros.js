@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Menu from '../../../components/Menu';
 
-const FebrabanNews = () => {
+const BBSeguros = () => {
 	const ghLink = '';
 	const projLink = '';
 
@@ -68,7 +68,7 @@ const FebrabanNews = () => {
 						className='h-auto'
 						src={
 							process.env.PUBLIC_URL +
-							'/images/projects/febraban-news/febraban_header.jpg'
+							'/images/projects/bbseguros/bbseg_header.jpg'
 						}
 						alt=''
 					/>
@@ -80,10 +80,10 @@ const FebrabanNews = () => {
 				<div
 					className={`relative sm:absolute sm:translate-y-[-50%] left-[50%] translate-x-[-50%] bg-darkBlue px-5 py-10 sm:py-16 w-[90%] sm:w-[80%] lg:w-[60%]`}>
 					<p className='text-orange text-section-title sm:text-main-title font-bebas text-center mb-3'>
-						FEBRABAN NEWS
+						BB SEGUROS
 					</p>
 
-					<p className='text-center mb-5'>2020 - Febraban | ID/TBWA</p>
+					<p className='text-center mb-5'>2019 - BB Seguros | ID/TBWA</p>
 
 					<div className='flex flex-row gap-5 justify-center'>
 						{ghLink === '' ? '' : githubLink}
@@ -95,35 +95,76 @@ const FebrabanNews = () => {
 			{/* Text block */}
 			<div className={`flex flex-row mt-10 justify-center mb-24`}>
 				<p className='w-[90%] sm:basis-2/3 text-center'>
-					In 2020, the world experienced an unimaginable period. In Brazil, the
-					COVID-19 pandemic affected the health of millions of people, along
-					with a growing number of Brazilians who lost their jobs, and
-					consequently, lost the ability to provide for their families.
-					Furthermore, due to a lack of information, other misinformation
-					campaigns and scams began to emerge, trying to take advantage of the
-					chaotic situation the country found itself in regarding its health and
-					economy. In such a devastating moment, FEBRABAN (Brazilian Federation
-					of Banks) decided to create a journalistic channel where all
-					Brazilians could receive news related to the economy, the emergency
-					aid they were entitled to, and alerts for preventing scams that were
-					being perpetrated. All this news was provided through the new website
-					created by FEBRABAN NEWS. News directly from the source that helped in
-					deciding the course of the economy.
+					With the evolution and improved development of the internet and the
+					conveniences it has brought into our lives, BB Seguros felt the need
+					to evolve as well, to better serve and create a superior experience
+					for its clients. In this regard, its new portal was developed,
+					integrating various sectors of the company such as insurance,
+					capitalization, pension, and dental services.
 				</p>
 			</div>
 
-			{/* Video block */}
-			<div className='flex flex-row justify-center'>
-				<div className='flex flex-row mb-24 w-[100%] sm:w-[80%]'>
-					<iframe
-						className='w-full h-[250px] sm:h-[540px]'
-						title='febraban-news-video'
-						width='960'
-						height='540'
-						src='https://www.youtube.com/embed/1IesX0ILNnc'
-						frameBorder='0'
-						allowFullScreen></iframe>
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL + '/images/projects/bbseguros/bbseg_img1.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
+					<p className='text-orange font-bebas text-section-subtitle'>
+						PROJECT CHALLENGES
+					</p>
+					<p className=''>
+						Throughout the project, we encountered various challenges, primarily
+						due to it being a portal where different sectors of the company
+						needed to be present and given appropriate prominence for their
+						various products. Furthermore, due to the large variety of products
+						offered, many pages of the website had few images to help explain
+						the services, along with a volume of text information that made the
+						experience and navigation more difficult.
+					</p>
 				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL + '/images/projects/bbseguros/bbseg_img3.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
+					<p className='text-orange font-bebas text-section-subtitle'>
+						COMPLEX USABILITY
+					</p>
+					<p className=''>
+						The overall usability of the site was quite complex, primarily due
+						to the volume of links and information that often led the user to
+						paths that were not desired, significantly affecting the overall
+						experience on the site and making navigation difficult.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL + '/images/projects/bbseguros/bbseg_img4.jpg'
+					}
+					alt=''
+				/>
 			</div>
 
 			{/* Text block */}
@@ -133,12 +174,12 @@ const FebrabanNews = () => {
 						PROJECT DEVELOPMENT
 					</p>
 					<p className=''>
-						In order for the website to provide a better experience, we
-						developed a modern visual language aimed at creating a site focused
-						on delivering news almost in real time. We produced a podcast in
-						addition to explanatory and journalistic videos featuring interviews
-						directly from the key authorities making decisions about the
-						economy.
+						To better meet the needs of users, we redesigned the overall
+						navigation of the portal to make it easier to navigate and to
+						simplify the overall experience of purchasing various products and
+						filing claims. Additionally, we developed a visual project to
+						standardize and create consistency across all areas of the site to
+						make the experience more enjoyable.
 					</p>
 				</div>
 			</div>
@@ -147,8 +188,7 @@ const FebrabanNews = () => {
 			<div className='flex flex-row justify-center mb-24'>
 				<img
 					src={
-						process.env.PUBLIC_URL +
-						'/images/projects/febraban-news/febraban_img2.jpg'
+						process.env.PUBLIC_URL + '/images/projects/bbseguros/bbseg_img6.jpg'
 					}
 					alt=''
 				/>
@@ -158,17 +198,48 @@ const FebrabanNews = () => {
 			<div className='flex flex-row justify-center mb-24'>
 				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
 					<p className='text-orange font-bebas text-section-subtitle'>
-						A WEBSITE WITH REAL-TIME INFORMATION ABOUT THE ECONOMY
+						PERSONALIZED EXPERIENCE FOR CLIENTS
 					</p>
 					<p className=''>
-						The project was a success, providing quality, transparent, and
-						relevant information during the pandemic period, helping people
-						avoid falling victim to scams, providing knowledge about key
-						processes related to bank services, as well as access to relevant
-						information about the economy that directly impacted the lives of
-						all Brazilians.
+						The final result was highly satisfactory. We developed an experience
+						centered around the needs of the clients, making it easier to access
+						and understand various products with more direct explanations and
+						language accessible to clients. Furthermore, to facilitate finding
+						the ideal product for each client, we developed an area where,
+						through simple question responses, the most suitable products could
+						be offered to each client, thus creating a personalized experience.
 					</p>
 				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-5'>
+				<img
+					src={
+						process.env.PUBLIC_URL + '/images/projects/bbseguros/bbseg_img7.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-5'>
+				<img
+					src={
+						process.env.PUBLIC_URL + '/images/projects/bbseguros/bbseg_img8.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center'>
+				<img
+					src={
+						process.env.PUBLIC_URL + '/images/projects/bbseguros/bbseg_img9.jpg'
+					}
+					alt=''
+				/>
 			</div>
 
 			{/* Full image block */}
@@ -176,18 +247,7 @@ const FebrabanNews = () => {
 				<img
 					src={
 						process.env.PUBLIC_URL +
-						'/images/projects/febraban-news/febraban_img3.jpg'
-					}
-					alt=''
-				/>
-			</div>
-
-			{/* Full image block */}
-			<div className='flex flex-row justify-center pb-5 bg-[#fff]'>
-				<img
-					src={
-						process.env.PUBLIC_URL +
-						'/images/projects/febraban-news/febraban_img4.jpg'
+						'/images/projects/bbseguros/bbseg_img10.jpg'
 					}
 					alt=''
 				/>
@@ -198,58 +258,7 @@ const FebrabanNews = () => {
 				<img
 					src={
 						process.env.PUBLIC_URL +
-						'/images/projects/febraban-news/febraban_img5.jpg'
-					}
-					alt=''
-				/>
-			</div>
-
-			{/* Text block */}
-			<div className='flex flex-row justify-center mb-24'>
-				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
-					<p className='text-orange font-bebas text-section-subtitle'>LIVE</p>
-					<p className=''>
-						To ensure the information was relevant, we conducted interviews with
-						key decision-makers in the economy such as politicians, economists,
-						central bank authorities, entrepreneurs, and researchers. All
-						interviews were conducted in real-time through Live streams that
-						took place on YouTube, LinkedIn, and Instagram.
-					</p>
-				</div>
-			</div>
-
-			{/* Full image block */}
-			<div className='flex flex-row justify-center mb-24'>
-				<img
-					src={
-						process.env.PUBLIC_URL +
-						'/images/projects/febraban-news/febraban_img7.jpg'
-					}
-					alt=''
-				/>
-			</div>
-
-			{/* Text block */}
-			<div className='flex flex-row justify-center mb-24'>
-				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
-					<p className='text-orange font-bebas text-section-subtitle'>
-						ART DIRECTION AND PROMOTION
-					</p>
-					<p className=''>
-						To promote the website and all the activities taking place, we
-						developed an integrated campaign that was promoted on major news
-						channels, YouTube, newspapers, Spotify, radio channels, television,
-						and the internet.
-					</p>
-				</div>
-			</div>
-
-			{/* Full image block */}
-			<div className='flex flex-row justify-center mb-24'>
-				<img
-					src={
-						process.env.PUBLIC_URL +
-						'/images/projects/febraban-news/febraban_img8.jpg'
+						'/images/projects/bbseguros/bbseg_img11.jpg'
 					}
 					alt=''
 				/>
@@ -260,11 +269,11 @@ const FebrabanNews = () => {
 				<div className='flex flex-col lg:flex-row text-center lg:text-left justify-between w-[80%] gap-10 lg:gap-0'>
 					<div>
 						<p className='text-orange font-bebas text-section-subtitle'>
-							Febraban News
+							BB Seguros Website
 						</p>
 						<ul>
 							<li>
-								<span className='font-bold'>Client:</span> Febraban
+								<span className='font-bold'>Client:</span> BB Seguros
 							</li>
 							<li>
 								<span className='font-bold'>Agency:</span> ID/TBWA
@@ -286,8 +295,7 @@ const FebrabanNews = () => {
 						</p>
 						<ul>
 							<li>
-								<span className='font-bold'>Creative Director:</span> Marcus
-								Mesquita
+								<span className='font-bold'>Head of Art:</span> Vicente Zanatta
 							</li>
 							<li>
 								<span className='font-bold'>Art Director:</span> Vinicius
@@ -297,7 +305,7 @@ const FebrabanNews = () => {
 								<span className='font-bold'>UX Design:</span> Vinicius Watanabe
 							</li>
 							<li>
-								<span className='font-bold'>Copywriter:</span> Murilo Dada
+								<span className='font-bold'>Copywriter:</span> Marcelo Torres
 							</li>
 						</ul>
 					</div>
@@ -373,4 +381,4 @@ const FebrabanNews = () => {
 	);
 };
 
-export default FebrabanNews;
+export default BBSeguros;
