@@ -210,7 +210,7 @@ const aboutAnimation = () => {
 	tl = gsap.timeline({
 		scrollTrigger: {
 			trigger: '#contact-title, #contact-text, .contact-icons',
-			start: 'top 80%',
+			start: 'top 90%',
 			end: 'bottom center',
 			scrub: false,
 			markers: false,
