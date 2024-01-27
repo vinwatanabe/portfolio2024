@@ -63,9 +63,9 @@ const FebrabanNews = () => {
 			<Menu />
 
 			<div className=''>
-				<picture>
+				<picture className=''>
 					<img
-						className='h-[calc(100vh-40vh)] sm:h-auto'
+						className='h-auto'
 						src={
 							process.env.PUBLIC_URL +
 							'/images/projects/febraban-news/febraban_header.jpg'
@@ -76,9 +76,9 @@ const FebrabanNews = () => {
 			</div>
 
 			{/* Header title */}
-			<div className='relative h-40'>
+			<div className='sm:relative sm:h-40'>
 				<div
-					className={`absolute translate-y-[-50%] left-[50%] translate-x-[-50%] bg-darkBlue px-5 py-10 sm:py-16 w-[90%] sm:w-[80%] lg:w-[60%]`}>
+					className={`relative sm:absolute sm:translate-y-[-50%] left-[50%] translate-x-[-50%] bg-darkBlue px-5 py-10 sm:py-16 w-[90%] sm:w-[80%] lg:w-[60%]`}>
 					<p className='text-orange text-section-title sm:text-main-title font-bebas text-center mb-3'>
 						FEBRABAN NEWS
 					</p>
