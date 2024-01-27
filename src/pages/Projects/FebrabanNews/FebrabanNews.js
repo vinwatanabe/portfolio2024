@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Menu from '../../components/Menu';
+import Menu from '../../../components/Menu';
 
-const Project = () => {
+const FebrabanNews = () => {
+	const ghLink = 'http://www.google.';
+	const projLink = '';
+
 	const githubLink = (
-		<Link to={'#!'} target='blank'>
+		<Link to={ghLink} target='blank'>
 			<svg
 				className='stroke-lightBlue hover:stroke-orange ease-in duration-200'
 				xmlns='http://www.w3.org/2000/svg'
@@ -38,7 +41,7 @@ const Project = () => {
 	);
 
 	const projectLink = (
-		<Link to={'#!'} target='blank'>
+		<Link to={projLink} target='blank'>
 			<svg
 				className='fill-lightBlue hover:fill-orange ease-in duration-200'
 				xmlns='http://www.w3.org/2000/svg'
@@ -65,7 +68,7 @@ const Project = () => {
 						className='h-[calc(100vh-40vh)] sm:h-auto'
 						src={
 							process.env.PUBLIC_URL +
-							'/images/projects/sample/header-image.jpg'
+							'/images/projects/febraban-news/febraban_header.jpg'
 						}
 						alt=''
 					/>
@@ -77,14 +80,14 @@ const Project = () => {
 				<div
 					className={`absolute translate-y-[-50%] left-[50%] translate-x-[-50%] bg-darkBlue px-5 py-10 sm:py-16 w-[90%] sm:w-[80%] lg:w-[60%]`}>
 					<p className='text-orange text-section-title sm:text-main-title font-bebas text-center mb-3'>
-						Lorem ipsum dolor sit amet
+						FEBRABAN NEWS
 					</p>
 
-					<p className='text-center mb-5'>2023 - Front-end & Back-end</p>
+					<p className='text-center mb-5'>2020 - Febraban | ID/TBWA</p>
 
 					<div className='flex flex-row gap-5 justify-center'>
-						{githubLink}
-						{projectLink}
+						{ghLink === '' ? '' : githubLink}
+						{projLink === '' ? '' : projectLink}
 					</div>
 				</div>
 			</div>
@@ -92,22 +95,100 @@ const Project = () => {
 			{/* Text block */}
 			<div className={`flex flex-row mt-10 justify-center mb-24`}>
 				<p className='w-[90%] sm:basis-2/3 text-center'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam est
-					libero, auctor a est eget, viverra aliquam justo. Proin vitae
-					consectetur sapien. In feugiat vulputate leo, non luctus libero.
-					Aliquam magna nibh, gravida id mi non, aliquet placerat mauris.
-					Pellentesque at vulputate nunc. Ut porttitor mi sit amet sem
-					sollicitudin bibendum. Aenean aliquet, orci eu condimentum fringilla,
-					est dui pellentesque enim, hendrerit efficitur sapien urna quis erat.
-					Sed congue ut est eget imperdiet. Ut eget ipsum nunc.
+					In 2020, the world experienced an unimaginable period. In Brazil, the
+					COVID-19 pandemic affected the health of millions of people, along
+					with a growing number of Brazilians who lost their jobs, and
+					consequently, lost the ability to provide for their families.
+					Furthermore, due to a lack of information, other misinformation
+					campaigns and scams began to emerge, trying to take advantage of the
+					chaotic situation the country found itself in regarding its health and
+					economy. In such a devastating moment, FEBRABAN (Brazilian Federation
+					of Banks) decided to create a journalistic channel where all
+					Brazilians could receive news related to the economy, the emergency
+					aid they were entitled to, and alerts for preventing scams that were
+					being perpetrated. All this news was provided through the new website
+					created by FEBRABAN NEWS. News directly from the source that helped in
+					deciding the course of the economy.
 				</p>
 			</div>
 
 			{/* Video block */}
+			<div className='flex flex-row justify-center'>
+				<div className='flex flex-row mb-24 w-[100%] sm:w-[80%]'>
+					<iframe
+						className='w-full h-[250px] sm:h-[540px]'
+						title='febraban-news-video'
+						width='960'
+						height='540'
+						src='https://www.youtube.com/embed/1IesX0ILNnc'
+						frameBorder='0'
+						allowFullScreen></iframe>
+				</div>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
+					<p className='text-orange font-bebas text-section-subtitle'>
+						PROJECT DEVELOPMENT
+					</p>
+					<p className=''>
+						In order for the website to provide a better experience, we
+						developed a modern visual language aimed at creating a site focused
+						on delivering news almost in real time. We produced a podcast in
+						addition to explanatory and journalistic videos featuring interviews
+						directly from the key authorities making decisions about the
+						economy.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
 			<div className='flex flex-row justify-center mb-24'>
 				<img
-					className='w-[100%] sm:w-[80%]'
-					src={process.env.PUBLIC_URL + '/images/projects/sample/video.jpg'}
+					src={
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_img2.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
+					<p className='text-orange font-bebas text-section-subtitle'>
+						A WEBSITE WITH REAL-TIME INFORMATION ABOUT THE ECONOMY
+					</p>
+					<p className=''>
+						The project was a success, providing quality, transparent, and
+						relevant information during the pandemic period, helping people
+						avoid falling victim to scams, providing knowledge about key
+						processes related to bank services, as well as access to relevant
+						information about the economy that directly impacted the lives of
+						all Brazilians.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center'>
+				<img
+					src={
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_img3.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center pb-5 bg-[#fff]'>
+				<img
+					src={
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_img4.jpg'
+					}
 					alt=''
 				/>
 			</div>
@@ -116,72 +197,59 @@ const Project = () => {
 			<div className='flex flex-row justify-center mb-24'>
 				<img
 					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/full-image.jpg'
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_img5.jpg'
 					}
 					alt=''
 				/>
 			</div>
 
-			{/* Image grid block */}
-			<div className='grid grid-cols-1 sm:grid-cols-3 gap-5 mx-5 sm:mx-10 mb-24'>
-				<img
-					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
-					}
-					alt=''
-				/>
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
+					<p className='text-orange font-bebas text-section-subtitle'>LIVE</p>
+					<p className=''>
+						To ensure the information was relevant, we conducted interviews with
+						key decision-makers in the economy such as politicians, economists,
+						central bank authorities, entrepreneurs, and researchers. All
+						interviews were conducted in real-time through Live streams that
+						took place on YouTube, LinkedIn, and Instagram.
+					</p>
+				</div>
+			</div>
 
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
 				<img
 					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_img7.jpg'
 					}
 					alt=''
 				/>
+			</div>
 
-				<img
-					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
-					}
-					alt=''
-				/>
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
+					<p className='text-orange font-bebas text-section-subtitle'>
+						ART DIRECTION AND PROMOTION
+					</p>
+					<p className=''>
+						To promote the website and all the activities taking place, we
+						developed an integrated campaign that was promoted on major news
+						channels, YouTube, newspapers, Spotify, radio channels, television,
+						and the internet.
+					</p>
+				</div>
+			</div>
 
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
 				<img
 					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
-					}
-					alt=''
-				/>
-
-				<img
-					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
-					}
-					alt=''
-				/>
-
-				<img
-					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
-					}
-					alt=''
-				/>
-				<img
-					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
-					}
-					alt=''
-				/>
-
-				<img
-					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
-					}
-					alt=''
-				/>
-
-				<img
-					src={
-						process.env.PUBLIC_URL + '/images/projects/sample/grid-block.jpg'
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_img8.jpg'
 					}
 					alt=''
 				/>
@@ -305,4 +373,4 @@ const Project = () => {
 	);
 };
 
-export default Project;
+export default FebrabanNews;
