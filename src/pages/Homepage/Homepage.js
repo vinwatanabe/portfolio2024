@@ -43,7 +43,7 @@ const Homepage = () => {
 					</svg>
 				</picture>
 
-				<Menu />
+				<Menu ids={true} />
 
 				<div className='flex items-end h-[calc(100vh-100px)] mx-10'>
 					<div className='flex flex-col w-96 mb-10 z-[999]'>
@@ -186,7 +186,7 @@ const Homepage = () => {
 							</p>
 
 							<div id='skills-text' className='flex flex-col sm:flex-row'>
-								<ul className='sm:list-disc columns-1 sm:columns-3 sm:gap-20'>
+								<ul className='columns-2 sm:columns-3 sm:gap-20'>
 									<li>Javascript (ES6+)</li>
 									<li>React</li>
 									<li>Typescript</li>
