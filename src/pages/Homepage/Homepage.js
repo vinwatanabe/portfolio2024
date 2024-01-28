@@ -18,7 +18,9 @@ const Homepage = () => {
 
 	// Just change the portfolioType for the selected type
 	const types = ['User Interface Designer', 'Fullstack Developer'];
-	const portfolioType = types[0];
+	let location = window.location.href;
+	let portfolioType =
+		location === 'https://viniwatanabe.vercel.app/' ? types[0] : types[1];
 	const projectsJson =
 		portfolioType === 'User Interface Designer'
 			? ProjectsUXDescription
