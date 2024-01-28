@@ -141,11 +141,11 @@ const FebrabanNews = () => {
 					</p>
 					<p className=''>
 						In order for the website to provide a better experience, we
-						developed a modern visual language aimed at creating a site focused
-						on delivering news almost in real time. We produced a podcast in
-						addition to explanatory and journalistic videos featuring interviews
-						directly from the key authorities making decisions about the
-						economy.
+						developed a modern visual language aimed at creating a website
+						focused on delivering news almost in real time. We produced a
+						podcast in addition to explanatory and journalistic videos featuring
+						interviews directly from the key authorities making decisions about
+						the economy.
 					</p>
 				</div>
 			</div>
@@ -165,7 +165,7 @@ const FebrabanNews = () => {
 			<div className='flex flex-row justify-center mb-24'>
 				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
 					<p className='text-orange font-bebas text-section-subtitle'>
-						A WEBSITE WITH REAL-TIME INFORMATION ABOUT THE ECONOMY
+						REAL-TIME INFORMATION ABOUT THE ECONOMY
 					</p>
 					<p className=''>
 						The project was a success, providing quality, transparent, and

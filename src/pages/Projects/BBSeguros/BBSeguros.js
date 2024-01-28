@@ -127,12 +127,12 @@ const BBSeguros = () => {
 					</p>
 					<p className=''>
 						Throughout the project, we encountered various challenges, primarily
-						due to it being a portal where different sectors of the company
+						due to it being a website where different sectors of the company
 						needed to be present and given appropriate prominence for their
 						various products. Furthermore, due to the large variety of products
 						offered, many pages of the website had few images to help explain
 						the services, along with a volume of text information that made the
-						experience and navigation more difficult.
+						user experience and navigation hard for customers.
 					</p>
 				</div>
 			</div>
@@ -157,7 +157,7 @@ const BBSeguros = () => {
 						The overall usability of the site was quite complex, primarily due
 						to the volume of links and information that often led the user to
 						paths that were not desired, significantly affecting the overall
-						experience on the site and making navigation difficult.
+						experience on the website and making navigation difficult.
 					</p>
 				</div>
 			</div>
@@ -180,7 +180,7 @@ const BBSeguros = () => {
 					</p>
 					<p className=''>
 						To better meet the needs of users, we redesigned the overall
-						navigation of the portal to make it easier to navigate and to
+						navigation of the website to make it easier to navigate and to
 						simplify the overall experience of purchasing various products and
 						filing claims. Additionally, we developed a visual project to
 						standardize and create consistency across all areas of the site to
@@ -210,9 +210,9 @@ const BBSeguros = () => {
 						centered around the needs of the clients, making it easier to access
 						and understand various products with more direct explanations and
 						language accessible to clients. Furthermore, to facilitate finding
-						the ideal product for each client, we developed an area where,
-						through simple question responses, the most suitable products could
-						be offered to each client, thus creating a personalized experience.
+						the ideal product for each customer, we developed an area where,
+						through simple questions, the most suitable products could be
+						offered to each client, thus creating a personalized experience.
 					</p>
 				</div>
 			</div>

@@ -101,10 +101,10 @@ const MimoRestaurant = () => {
 			{/* Text block */}
 			<div className={`flex flex-row mt-10 justify-center mb-24`}>
 				<p className='w-[90%] sm:basis-2/3 text-center'>
-					In 2019, Mimo Restaurant decided to create its website to provide a
-					more delightful experience for its customers. Located in Jardim
-					Paulista, the restaurant offers an elegant proposition for its dishes,
-					transforming the quality of ingredients into an unforgettable
+					In 2019, Mimo Restaurant decided to create its first website to
+					provide a more delightful experience for its customers. Located in São
+					Paulo - Brazil, the restaurant offers an elegant proposition for its
+					dishes, transforming the quality of ingredients into an unforgettable
 					experience for its customers.
 				</p>
 			</div>
@@ -121,9 +121,9 @@ const MimoRestaurant = () => {
 							To better design the experience for Mimo's customers, we
 							identified the key points of importance for users so they could
 							easily find the restaurant and have the best navigation and
-							experience within the site. To achieve this, we gave considerable
-							prominence to photographs of the dishes to tantalize the eyes of
-							the site's visitors.
+							experience within the website. To achieve this, we gave
+							considerable prominence to photographs of the dishes to tantalize
+							the eyes of the website users.
 						</p>
 					</div>
 				</div>
@@ -153,10 +153,10 @@ const MimoRestaurant = () => {
 					</p>
 					<p className=''>
 						After the approval of wireframes and navigation flow, we developed
-						the final visual of the site, which generated an incredible
-						experience with the ingredients we had available, providing easy,
-						intuitive, and elegant navigation for customers in a way that
-						reflects the values of the Mimo Restaurant brand.
+						the final visual concept of the website, which generated an
+						incredible experience with the ingredients we had available,
+						providing easy, intuitive, and elegant navigation for customers in a
+						way that reflects the values of Mimo Restaurant brand.
 					</p>
 				</div>
 			</div>
