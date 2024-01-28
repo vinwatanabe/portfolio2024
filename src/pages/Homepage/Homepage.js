@@ -5,7 +5,8 @@ import { homeAnimation, aboutAnimation } from '../../animation/gsapAnimation';
 import Menu from '../../components/Menu';
 import ContactIcons from '../../components/ContactIcons';
 import ProjectCard from '../../components/ProjectCard';
-import ProjectDescription from '../../assets/json/projectDescription.json';
+import ProjectsDevDescription from '../../assets/json/projectsDevDescription.json';
+import ProjectsUXDescription from '../../assets/json/projectsUXDescription.json';
 
 const Homepage = () => {
 	useEffect(() => {
@@ -14,6 +15,53 @@ const Homepage = () => {
 		homeAnimation();
 		aboutAnimation();
 	}, []);
+
+	// Just change the portfolioType for the selected type
+	const types = ['User Interface Designer', 'Fullstack Developer'];
+	const portfolioType = types[0];
+	const projectsJson =
+		portfolioType === 'User Interface Designer'
+			? ProjectsUXDescription
+			: ProjectsDevDescription;
+
+	const listUX = (
+		<ul className='columns-2 sm:columns-3 sm:gap-20'>
+			<li>Figma</li>
+			<li>Adobe XD</li>
+			<li>Photoshop</li>
+			<li>Adobe Illustrator</li>
+			<li>After Effects</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Tailwind</li>
+			<li>Bootstrap</li>
+			<li>Javascript (ES6+)</li>
+			<li>React</li>
+			<li>JQuery</li>
+			<li>NodeJS</li>
+			<li>MongoDB</li>
+			<li>Express</li>
+		</ul>
+	);
+
+	const listDev = (
+		<ul className='columns-2 sm:columns-3 sm:gap-20'>
+			<li>Javascript (ES6+)</li>
+			<li>React</li>
+			<li>Typescript</li>
+			<li>NodeJS</li>
+			<li>Express</li>
+			<li>MongoDB</li>
+			<li>JQuery</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Tailwind</li>
+			<li>Bootstrap</li>
+			<li>Figma</li>
+			<li>Adobe XD</li>
+			<li>Photoshop</li>
+		</ul>
+	);
 
 	return (
 		<div className='font-inter text-base text-lightBlue' id='home'>
@@ -50,11 +98,11 @@ const Homepage = () => {
 						<h1
 							id='site-title'
 							className='font-bebas text-orange text-7xl sm:text-main-title text-center sm:text-start'>
-							Fullstack developer
+							{portfolioType}
 						</h1>
 						<p id='site-subtitle' className='pb-4 text-center sm:text-start'>
-							<span className='text-orange'>Fullstack Developer</span>{' '}
-							specialized in building and designing{' '}
+							<span className='text-orange'>{portfolioType}</span> specialized
+							in building{' '}
 							<span className='text-orange'>awesome digital experiences</span>
 						</p>
 						<div id='contact-information-title'>
@@ -186,21 +234,7 @@ const Homepage = () => {
 							</p>
 
 							<div id='skills-text' className='flex flex-col sm:flex-row'>
-								<ul className='columns-2 sm:columns-3 sm:gap-20'>
-									<li>Javascript (ES6+)</li>
-									<li>React</li>
-									<li>Typescript</li>
-									<li>NodeJS</li>
-									<li>MongoDB</li>
-									<li>Express</li>
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Tailwind</li>
-									<li>Bootstrap</li>
-									<li>Figma</li>
-									<li>Adobe XD</li>
-									<li>Photoshop</li>
-								</ul>
+								{portfolioType === 'User Interface Designer' ? listUX : listDev}
 							</div>
 						</div>
 					</div>
@@ -217,7 +251,7 @@ const Homepage = () => {
 				</p>
 
 				<div className='flex flex-col gap-28'>
-					{ProjectDescription.map((project, index) => {
+					{projectsJson.map((project, index) => {
 						return (
 							<div key={index}>
 								<ProjectCard position={index} project={project} />

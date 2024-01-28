@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Button from './Button';
+import Button from './Button';
 
 const ProjectCard = ({ position, project }) => {
 	const flexDirection =
@@ -86,7 +86,11 @@ const ProjectCard = ({ position, project }) => {
 
 				<p className='text-orange mb-4'>{project.technology}</p>
 
-				{/* <Button text={'View project'} url={'/project'} /> */}
+				{project.projectPage === '' ? (
+					''
+				) : (
+					<Button text={'View project'} url={project.projectPage} />
+				)}
 
 				<div className='flex flex-row gap-5 justify-center sm:justify-start'>
 					{project.github === '' ? '' : githubLink}

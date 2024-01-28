@@ -227,65 +227,75 @@ const MimoRestaurant = () => {
 			{/* Project navigation block */}
 			<div className='flex flex-row justify-center pb-24'>
 				<div className='flex flex-row justify-between w-[80%]'>
-					<div className='flex flex-row gap-3 items-center text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
-						<svg
-							xmlns='http://www.w3.org/2000/svg'
-							width='10.784'
-							height='18.411'
-							viewBox='0 0 10.784 18.411'>
-							<g
-								id='Seta'
-								transform='translate(-2560.256 4814.009) rotate(-135)'>
-								<line
-									data-name='Line 9'
-									x2='11.149'
-									transform='translate(1575 5209)'
-									fill='none'
-									strokeLinecap='round'
-									strokeWidth='2'
-								/>
-								<line
-									data-name='Line 10'
-									y1='10.62'
-									transform='translate(1586.334 5209.083)'
-									fill='none'
-									strokeLinecap='round'
-									strokeWidth='2'
-								/>
-							</g>
-						</svg>
+					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
+						<Link
+							className='flex flex-row gap-3 items-center'
+							to={'/bbseguros'}>
+							<svg
+								xmlns='http://www.w3.org/2000/svg'
+								width='10.784'
+								height='18.411'
+								viewBox='0 0 10.784 18.411'>
+								<g
+									id='Seta'
+									transform='translate(-2560.256 4814.009) rotate(-135)'>
+									<line
+										data-name='Line 9'
+										x2='11.149'
+										transform='translate(1575 5209)'
+										fill='none'
+										strokeLinecap='round'
+										strokeWidth='2'
+									/>
+									<line
+										data-name='Line 10'
+										y1='10.62'
+										transform='translate(1586.334 5209.083)'
+										fill='none'
+										strokeLinecap='round'
+										strokeWidth='2'
+									/>
+								</g>
+							</svg>
 
-						<p className='font-bold'>Previous project</p>
+							<p className='font-bold'>Previous project</p>
+						</Link>
 					</div>
 
-					<div className='flex flex-row text-right gap-3 items-center text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
-						<p className='font-bold'>Next project</p>
+					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
+						<Link
+							className='flex flex-row text-right gap-3 items-center'
+							to={'/febraban-news'}>
+							<p className='font-bold'>Next project</p>
 
-						<svg
-							xmlns='http://www.w3.org/2000/svg'
-							width='10.784'
-							height='18.411'
-							viewBox='0 0 10.784 18.411'>
-							<g id='Seta' transform='translate(2571.04 -4795.598) rotate(45)'>
-								<line
-									data-name='Line 9'
-									x2='11.149'
-									transform='translate(1575 5209)'
-									fill='none'
-									strokeLinecap='round'
-									strokeWidth='2'
-								/>
-								<line
-									id='Line_10'
-									data-name='Line 10'
-									y1='10.62'
-									transform='translate(1586.334 5209.083)'
-									fill='none'
-									strokeLinecap='round'
-									strokeWidth='2'
-								/>
-							</g>
-						</svg>
+							<svg
+								xmlns='http://www.w3.org/2000/svg'
+								width='10.784'
+								height='18.411'
+								viewBox='0 0 10.784 18.411'>
+								<g
+									id='Seta'
+									transform='translate(2571.04 -4795.598) rotate(45)'>
+									<line
+										data-name='Line 9'
+										x2='11.149'
+										transform='translate(1575 5209)'
+										fill='none'
+										strokeLinecap='round'
+										strokeWidth='2'
+									/>
+									<line
+										id='Line_10'
+										data-name='Line 10'
+										y1='10.62'
+										transform='translate(1586.334 5209.083)'
+										fill='none'
+										strokeLinecap='round'
+										strokeWidth='2'
+									/>
+								</g>
+							</svg>
+						</Link>
 					</div>
 				</div>
 			</div>

@@ -7,6 +7,7 @@
 		"technology": "React | Tailwind | NodeJS | Express | MongoDB | JWT ",
 		"github": "https://github.com/vinwatanabe/tapandmanage",
 		"projectUrl": "https://tapandmanage.vercel.app/",
+		"projectPage": "",
 		"image": "tap-and-manage.jpg"
 	},
 	{
@@ -17,6 +18,7 @@
 		"technology": "React | MaterialUI | WeatherAPI",
 		"github": "https://github.com/souzatotolo/VanHike",
 		"projectUrl": "https://project-group5.vercel.app/",
+		"projectPage": "",
 		"image": "vanhike.jpg"
 	},
 	{
@@ -27,6 +29,7 @@
 		"technology": "React | Bootstrap | Firebase",
 		"github": "https://github.com/vinwatanabe/shareandgo-frontend",
 		"projectUrl": "",
+		"projectPage": "",
 		"image": "share-and-go.jpg"
 	},
 	{
@@ -37,6 +40,7 @@
 		"technology": "React | Javascript",
 		"github": "https://github.com/vinwatanabe/converter-link",
 		"projectUrl": "https://vinwatanabe.github.io/converter-link/",
+		"projectPage": "",
 		"image": "converter-link.jpg"
 	}
 ]

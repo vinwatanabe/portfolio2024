@@ -1,0 +1,35 @@
+[
+	{
+		"title": "Febraban News",
+		"year": "2020",
+		"type": "UI Design | Art Direction",
+		"description": "Tap & Manage is a web application designed to empower small businesses operating on limited budgets by providing an efficient and cost-effective solution for inventory management. This inventory management system leverages Near Field Communication (NFC) technology, enabling users to seamlessly store and retrieve crucial inventory data using their smartphones. Utilizing a browser API, Tap & Manage ensures accessibility through any web browser, eliminating the need for specialized software. Small business owners can effortlessly save and retrieve detailed inventory information by simply tapping NFC tags. This streamlined approach not only simplifies the inventory management process but also significantly reduces the associated costs.",
+		"technology": "",
+		"github": "",
+		"projectUrl": "",
+		"projectPage": "/febraban-news",
+		"image": "febraban-news.jpg"
+	},
+	{
+		"title": "BB Seguros",
+		"year": "2019",
+		"type": "UI Design | Art Direction",
+		"description": "Tap & Manage is a web application designed to empower small businesses operating on limited budgets by providing an efficient and cost-effective solution for inventory management. This inventory management system leverages Near Field Communication (NFC) technology, enabling users to seamlessly store and retrieve crucial inventory data using their smartphones. Utilizing a browser API, Tap & Manage ensures accessibility through any web browser, eliminating the need for specialized software. Small business owners can effortlessly save and retrieve detailed inventory information by simply tapping NFC tags. This streamlined approach not only simplifies the inventory management process but also significantly reduces the associated costs.",
+		"technology": "",
+		"github": "",
+		"projectUrl": "",
+		"projectPage": "/bbseguros",
+		"image": "bbseguros.jpg"
+	},
+	{
+		"title": "Mimo Restaurant",
+		"year": "2019",
+		"type": "UI Design",
+		"description": "Tap & Manage is a web application designed to empower small businesses operating on limited budgets by providing an efficient and cost-effective solution for inventory management. This inventory management system leverages Near Field Communication (NFC) technology, enabling users to seamlessly store and retrieve crucial inventory data using their smartphones. Utilizing a browser API, Tap & Manage ensures accessibility through any web browser, eliminating the need for specialized software. Small business owners can effortlessly save and retrieve detailed inventory information by simply tapping NFC tags. This streamlined approach not only simplifies the inventory management process but also significantly reduces the associated costs.",
+		"technology": "",
+		"github": "",
+		"projectUrl": "",
+		"projectPage": "/mimo-restaurant",
+		"image": "mimo.jpg"
+	}
+]
