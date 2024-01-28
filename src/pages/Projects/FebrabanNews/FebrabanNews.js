@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Menu from '../../../components/Menu';
+import scrollTop from '../../../functions/scrollTop';
+import ScrollTopButton from '../../../components/ScrollTopButton';
 
 const FebrabanNews = () => {
+	useEffect(() => {
+		scrollTop();
+	}, []);
+
 	const ghLink = '';
 	const projLink = '';
 
@@ -61,6 +67,7 @@ const FebrabanNews = () => {
 	return (
 		<div className='font-inter text-base text-lightBlue'>
 			<Menu />
+			<ScrollTopButton />
 
 			<div className=''>
 				<picture className=''>

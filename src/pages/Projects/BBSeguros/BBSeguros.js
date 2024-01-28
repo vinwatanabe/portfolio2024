@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Menu from '../../../components/Menu';
+import scrollTop from '../../../functions/scrollTop';
+import ScrollTopButton from '../../../components/ScrollTopButton';
 
 const BBSeguros = () => {
+	useEffect(() => {
+		scrollTop();
+	}, []);
+
 	const ghLink = '';
 	const projLink = '';
 
@@ -61,6 +67,7 @@ const BBSeguros = () => {
 	return (
 		<div className='font-inter text-base text-lightBlue'>
 			<Menu />
+			<ScrollTopButton />
 
 			<div className=''>
 				<picture className=''>
@@ -95,12 +102,10 @@ const BBSeguros = () => {
 			{/* Text block */}
 			<div className={`flex flex-row mt-10 justify-center mb-24`}>
 				<p className='w-[90%] sm:basis-2/3 text-center'>
-					With the evolution and improved development of the internet and the
-					conveniences it has brought into our lives, BB Seguros felt the need
-					to evolve as well, to better serve and create a superior experience
-					for its clients. In this regard, its new portal was developed,
-					integrating various sectors of the company such as insurance,
-					capitalization, pension, and dental services.
+					With the internet changing how we do things, BB Seguros decided to
+					upgrade too, to make things better for customers. They made a new
+					website that combines insurance, capitalization, pensions, and dental
+					services all in one place, for a smoother experience.
 				</p>
 			</div>
 

@@ -3,6 +3,7 @@ import './Homepage.css';
 import { blobTop, blobAbout } from '../../animation/anime';
 import { homeAnimation, aboutAnimation } from '../../animation/gsapAnimation';
 import Menu from '../../components/Menu';
+import ScrollTopButton from '../../components/ScrollTopButton';
 import ContactIcons from '../../components/ContactIcons';
 import ProjectCard from '../../components/ProjectCard';
 import ProjectsDevDescription from '../../assets/json/projectsDevDescription.json';
@@ -16,7 +17,7 @@ const Homepage = () => {
 		aboutAnimation();
 	}, []);
 
-	// Just change the portfolioType for the selected type
+	// Just change the portfolioType based on URL
 	const types = ['User Interface Designer', 'Fullstack Developer'];
 	let location = window.location.href;
 	let portfolioType =
@@ -26,6 +27,7 @@ const Homepage = () => {
 			? ProjectsUXDescription
 			: ProjectsDevDescription;
 
+	// Skill Lists
 	const listUX = (
 		<ul className='columns-2 sm:columns-3 sm:gap-20'>
 			<li>Figma</li>
@@ -67,6 +69,8 @@ const Homepage = () => {
 
 	return (
 		<div className='font-inter text-base text-lightBlue' id='home'>
+			<ScrollTopButton />
+
 			<div className='relative overflow-hidden mb-40'>
 				<picture className='absolute z-0 top-[40%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
 					<svg
@@ -151,7 +155,7 @@ const Homepage = () => {
 				</picture>
 
 				<div className='flex flex-row justify-end mx-5 sm:mx-10'>
-					<div className='sm:basis-1/2 z-[999] text-center sm:text-start'>
+					<div className='sm:basis-1/2 z-[99] text-center sm:text-start'>
 						<div className='mb-20'>
 							<p
 								id='about-title'
