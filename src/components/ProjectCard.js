@@ -89,7 +89,7 @@ const ProjectCard = ({ position, project }) => {
 				{project.projectPage === '' ? (
 					''
 				) : (
-					<Button text={'View project'} url={project.projectPage} />
+					<Button text={'View case study'} url={project.projectPage} />
 				)}
 
 				<div className='flex flex-row gap-5 justify-center sm:justify-start'>
