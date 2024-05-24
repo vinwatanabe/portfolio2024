@@ -21,9 +21,7 @@ const Homepage = () => {
 	const types = ['Product Designer', 'Fullstack Developer'];
 	let location = window.location.href;
 	let portfolioType =
-		location === 'https://viniwatanabe.vercel.app/'
-			? types[0] + ' | UX Designer'
-			: types[1];
+		location === 'https://viniwatanabe.vercel.app/' ? types[0] : types[1];
 	const projectsJson =
 		portfolioType === 'Product Designer'
 			? ProjectsUXDescription
