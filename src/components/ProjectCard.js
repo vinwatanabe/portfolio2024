@@ -77,7 +77,8 @@ const ProjectCard = ({ position, project }) => {
 				</p>
 
 				<p className='text-orange mb-3'>
-					{project.year} - {project.type}
+					{/* {project.year} - {project.type} */}
+					{project.type}
 				</p>
 
 				<hr className='text-orange w-12 border-2 mb-3 mx-auto sm:mx-0' />

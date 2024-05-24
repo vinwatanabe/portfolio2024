@@ -18,12 +18,14 @@ const Homepage = () => {
 	}, []);
 
 	// Just change the portfolioType based on URL
-	const types = ['User Interface Designer', 'Fullstack Developer'];
+	const types = ['Product Designer', 'Fullstack Developer'];
 	let location = window.location.href;
 	let portfolioType =
-		location === 'https://viniwatanabe.vercel.app/' ? types[0] : types[1];
+		location === 'https://viniwatanabe.vercel.app/'
+			? types[0] + ' | UX Designer'
+			: types[1];
 	const projectsJson =
-		portfolioType === 'User Interface Designer'
+		portfolioType === 'Product Designer'
 			? ProjectsUXDescription
 			: ProjectsDevDescription;
 
@@ -32,6 +34,7 @@ const Homepage = () => {
 		<ul className='columns-2 sm:columns-3 sm:gap-20'>
 			<li>Figma</li>
 			<li>Adobe XD</li>
+			<li>Webflow</li>
 			<li>Photoshop</li>
 			<li>Adobe Illustrator</li>
 			<li>After Effects</li>
@@ -164,15 +167,15 @@ const Homepage = () => {
 							</p>
 
 							<div id='about-text'>
-								{portfolioType === 'User Interface Designer' ? (
+								{portfolioType === 'Product Designer' ? (
 									<p>
-										I'm Vinicius, a recently graduated Web Developer and Art
-										Director/UI Designer with experience crafting immersive
-										experiences for advertising agencies such as ID\TBWA,
-										AlmapBBDO and McGarryBowen. While working for these
-										agencies, I had the opportunity to work with global clients
-										like Unicef, Intuit, M&Ms, Snickers, Pedigree, Santander
-										Bank, Claro, and more.
+										I'm Vinicius, a Product Designer & UX/UI Designer with
+										experience crafting immersive experiences for advertising
+										agencies such as ID\TBWA, AlmapBBDO and McGarryBowen. While
+										working for these agencies, I had the opportunity to create
+										amazing projects for global clients like Unicef, Intuit
+										Quickbooks, M&Ms, Snickers, Pedigree, Santander Bank, Claro,
+										and more.
 									</p>
 								) : (
 									<p>
@@ -180,19 +183,18 @@ const Homepage = () => {
 										Art Director/UI Designer with experience crafting immersive
 										experiences for advertising agencies such as ID\TBWA,
 										AlmapBBDO and McGarryBowen. While working for these
-										agencies, I had the opportunity to work with global clients
-										like Unicef, Intuit, M&Ms, Snickers, Pedigree, Santander
-										Bank, Claro, and more.
+										agencies, I had the opportunity to create amazing projects
+										for global clients like Unicef, Intuit Quickbooks, M&Ms,
+										Snickers, Pedigree, Santander Bank, Claro, and more.
 									</p>
 								)}
 
 								<p>
 									My passion lies in the transformative power of design and
-									technology — a belief that's driven my career from the world
-									of art direction and design to coding solutions. I've
-									dedicated my craft to making people lives easier through
-									innovative solutions, leaving a lasting impact on user
-									experiences.
+									technology — a belief that's driven my career to design and
+									develop awesome products for a variety of clients. I've
+									dedicated my craft to creating useful products through
+									research, problem solving and development.
 								</p>
 							</div>
 						</div>
@@ -206,7 +208,7 @@ const Homepage = () => {
 							<ul id='experience-text' className='font-bold'>
 								<li>
 									<span className='text-orange'>
-										ID\TBWA - Senior Art Director / UI Designer |
+										ID\TBWA - Senior Art Director / UX/UI Designer |
 									</span>{' '}
 									2018 - 2021
 								</li>
@@ -222,7 +224,7 @@ const Homepage = () => {
 								</li>
 								<li>
 									<span className='text-orange'>
-										ID\TBWA - Art Direction Assistant / UI Designer |
+										ID\TBWA - Art Direction Assistant / UX/UI Designer |
 									</span>{' '}
 									2014 - 2016
 								</li>
@@ -253,7 +255,7 @@ const Homepage = () => {
 							</p>
 
 							<div id='skills-text' className='flex flex-col sm:flex-row'>
-								{portfolioType === 'User Interface Designer' ? listUX : listDev}
+								{portfolioType === 'Product Designer' ? listUX : listDev}
 							</div>
 						</div>
 					</div>

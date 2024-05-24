@@ -89,7 +89,7 @@ const MimoRestaurant = () => {
 						Mimo Restaurant
 					</p>
 
-					<p className='text-center mb-5'>2019 - Mimo | Freelance</p>
+					<p className='text-center mb-5'>Mimo | Freelance</p>
 
 					<div className='flex flex-row gap-5 justify-center'>
 						{ghLink === '' ? '' : githubLink}

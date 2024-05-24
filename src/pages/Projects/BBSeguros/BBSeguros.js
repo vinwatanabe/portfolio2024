@@ -90,7 +90,7 @@ const BBSeguros = () => {
 						BB SEGUROS
 					</p>
 
-					<p className='text-center mb-5'>2019 - BB Seguros | ID/TBWA</p>
+					<p className='text-center mb-5'>BB Seguros | ID/TBWA</p>
 
 					<div className='flex flex-row gap-5 justify-center'>
 						{ghLink === '' ? '' : githubLink}

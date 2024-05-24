@@ -90,7 +90,7 @@ const FebrabanNews = () => {
 						FEBRABAN NEWS
 					</p>
 
-					<p className='text-center mb-5'>2020 - Febraban | ID/TBWA</p>
+					<p className='text-center mb-5'>Febraban | ID/TBWA</p>
 
 					<div className='flex flex-row gap-5 justify-center'>
 						{ghLink === '' ? '' : githubLink}
