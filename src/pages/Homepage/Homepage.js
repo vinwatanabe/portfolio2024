@@ -18,12 +18,12 @@ const Homepage = () => {
 	}, []);
 
 	// Just change the portfolioType based on URL
-	const types = ['Product Designer', 'Fullstack Developer'];
+	const types = ['UX/UI Designer', 'Fullstack Developer'];
 	let location = window.location.href;
 	let portfolioType =
 		location === 'https://viniwatanabe.vercel.app/' ? types[0] : types[1];
 	const projectsJson =
-		portfolioType === 'Product Designer'
+		portfolioType === 'UX/UI Designer'
 			? ProjectsUXDescription
 			: ProjectsDevDescription;
 
@@ -165,15 +165,14 @@ const Homepage = () => {
 							</p>
 
 							<div id='about-text'>
-								{portfolioType === 'Product Designer' ? (
+								{portfolioType === 'UX/UI Designer' ? (
 									<p>
-										I'm Vinicius, a Product Designer & UX/UI Designer with
-										experience crafting immersive experiences for advertising
-										agencies such as ID\TBWA, AlmapBBDO and McGarryBowen. While
-										working for these agencies, I had the opportunity to create
-										amazing projects for global clients like Unicef, Intuit
-										Quickbooks, M&Ms, Snickers, Pedigree, Santander Bank, Claro,
-										and more.
+										I'm Vinicius, a UX/UI Designer with experience crafting
+										immersive experiences for advertising agencies such as
+										ID\TBWA, AlmapBBDO and McGarryBowen. While working for these
+										agencies, I had the opportunity to create amazing projects
+										for global clients like Unicef, Intuit Quickbooks, M&Ms,
+										Snickers, Pedigree, Santander Bank, Claro, and more.
 									</p>
 								) : (
 									<p>
@@ -253,7 +252,7 @@ const Homepage = () => {
 							</p>
 
 							<div id='skills-text' className='flex flex-col sm:flex-row'>
-								{portfolioType === 'Product Designer' ? listUX : listDev}
+								{portfolioType === 'UX/UI Designer' ? listUX : listDev}
 							</div>
 						</div>
 					</div>
