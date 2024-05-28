@@ -108,8 +108,8 @@ const Homepage = () => {
 							{portfolioType}
 						</h1>
 						<p id='site-subtitle' className='pb-4 text-center sm:text-start'>
-							<span className='text-orange'>{portfolioType}</span> specialized
-							in building{' '}
+							<span className='text-orange'>{portfolioType}</span> that loves to
+							build{' '}
 							<span className='text-orange'>awesome digital experiences</span>
 						</p>
 						<div id='contact-information-title'>
