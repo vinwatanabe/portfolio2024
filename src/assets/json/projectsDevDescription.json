@@ -1,5 +1,6 @@
 [
 	{
+		"display": "block",
 		"title": "Tap & Manage",
 		"year": "2023",
 		"type": "Front-end | Back-end | UI Design",
@@ -11,6 +12,7 @@
 		"image": "tap-and-manage.jpg"
 	},
 	{
+		"display": "block",
 		"title": "VanHike",
 		"year": "2023",
 		"type": "Front-end | UI Design",
@@ -22,6 +24,7 @@
 		"image": "vanhike.jpg"
 	},
 	{
+		"display": "block",
 		"title": "Share & Go",
 		"year": "2022",
 		"type": "Front-end | UI Design",
@@ -33,6 +36,7 @@
 		"image": "share-and-go.jpg"
 	},
 	{
+		"display": "block",
 		"title": "Converter Link",
 		"year": "2020",
 		"type": "Front-end | UI Design",

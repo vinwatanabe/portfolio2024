@@ -271,7 +271,7 @@ const Homepage = () => {
 				<div className='flex flex-col gap-28'>
 					{projectsJson.map((project, index) => {
 						return (
-							<div key={index}>
+							<div key={index} className={project.display}>
 								<ProjectCard position={index} project={project} />
 							</div>
 						);

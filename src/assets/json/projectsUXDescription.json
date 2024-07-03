@@ -1,5 +1,6 @@
 [
 	{
+		"display": "block",
 		"title": "Mimo Restaurant",
 		"year": "2019",
 		"type": "UX Design",
@@ -11,6 +12,7 @@
 		"image": "mimo.jpg"
 	},
 	{
+		"display": "block",
 		"title": "BB Seguros",
 		"year": "2019",
 		"type": "UX Design | Art Direction",
@@ -22,6 +24,7 @@
 		"image": "bbseguros.jpg"
 	},
 	{
+		"display": "block",
 		"title": "Febraban News",
 		"year": "2020",
 		"type": "UX Design | Art Direction",
@@ -33,6 +36,7 @@
 		"image": "febraban-news.jpg"
 	},
 	{
+		"display": "hidden",
 		"title": "Tap & Manage",
 		"year": "2023",
 		"type": "UX Design | Front-end | Back-end",
@@ -44,6 +48,7 @@
 		"image": "tap-and-manage.jpg"
 	},
 	{
+		"display": "hidden",
 		"title": "VanHike",
 		"year": "2023",
 		"type": "UX Design | Front-end",
