@@ -98,32 +98,21 @@ const MimoRestaurant = () => {
 				</div>
 			</div>
 
-			{/* Text block */}
-			<div className={`flex flex-row mt-10 justify-center mb-24`}>
-				<p className='w-[90%] sm:basis-2/3 text-center'>
-					In 2019, Mimo Restaurant decided to create its first website to
-					provide a more delightful experience for its customers. Located in São
-					Paulo - Brazil, the restaurant offers an elegant proposition for its
-					dishes, transforming the quality of ingredients into an unforgettable
-					experience for its customers.
-				</p>
-			</div>
-
 			{/* Text image block */}
 			<div className='flex flex-col-reverse sm:flex-row'>
 				{/* Text block */}
 				<div className='flex flex-row items-center justify-center mb-24'>
-					<div className='flex flex-col text-center sm:text-left w-[90%] sm:basis-2/3'>
-						<p className='text-orange font-bebas text-section-subtitle'>
-							INGREDIENTS
+					<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+						<p className='uppercase text-center sm:text-left text-orange font-bebas text-section-subtitle'>
+							Project Overview
 						</p>
 						<p className=''>
-							To better design the experience for Mimo's customers, we
-							identified the key points of importance for users so they could
-							easily find the restaurant and have the best navigation and
-							experience within the website. To achieve this, we gave
-							considerable prominence to photographs of the dishes to tantalize
-							the eyes of the website users.
+							In 2019, Mimo Restaurant launched their first website to enhance
+							the dining experience for its customers. Located in the heart of
+							São Paulo, Brazil, Mimo had an elegant concept by blending the
+							best of the Italian and Brazilian cuisine together to create
+							sophisticated dishes, and providing an unforgettable culinary
+							journey to its guests.
 						</p>
 					</div>
 				</div>
@@ -137,6 +126,130 @@ const MimoRestaurant = () => {
 				</div>
 			</div>
 
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Challenge Statement
+					</p>
+					<p className=''>
+						The challenge was to create Mimo’s first website, serving as the
+						primary point of contact between the restaurant and its customers.
+						This website would also function as a digital menu for easy
+						browsing. Additionally, Mimo offers exceptional services for hosting
+						special events, providing the option to book their main hall,
+						rooftop space, and enjoy an exquisite catering experience.
+					</p>
+				</div>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Main Objectives
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							Mobile-First Experience
+						</span>{' '}
+						- Recognizing that most customers will use the website on their
+						mobile phones to check the restaurant's location or browse the menu,
+						we prioritized creating a seamless mobile-first experience for this
+						project.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>User-Centric Design</span> -
+						We crafted a simple and intuitive website architecture that
+						categorizes all dishes served at the restaurant, reducing cognitive
+						load. Our design highlights each dish with stunning photography and
+						includes an easy-to-use reservation process for an optimized user
+						experience.
+					</p>
+				</div>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Research and strategy
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>User Persona</span> - The
+						project began with the creation of well-defined user personas,
+						representing typical customers who visit the restaurant and search
+						for its food services. These personas guided the entire design
+						process of the website.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							Interviews and Insights
+						</span>{' '}
+						- We conducted interviews and surveys with customers, the restaurant
+						owner, and the chef to gather valuable insights into their
+						expectations, ideas, concerns, and preferences for the website. This
+						data informed the design process and overall architecture of the
+						site.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>Competitor Analysis</span> -
+						To identify industry best practices and opportunities for
+						differentiation, we performed a competitor analysis of high-end
+						restaurants with similar offerings. This analysis helped us create a
+						unique brand identity and ensure Mimo stands out in the market.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL + '/images/projects/mimo/mimo_personas.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						User Flow
+					</p>
+					<p className=''>
+						With a clear understanding of our users and their expectations, as
+						well as potential navigation issues, we defined an initial user
+						flow. This user flow maps out all the interactions and pages users
+						will experience on Mimo’s website.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={process.env.PUBLIC_URL + '/images/projects/mimo/mimo_map.jpg'}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Wireframing
+					</p>
+					<p className=''>
+						After defining the user flow, I began working on the wireframes to
+						explore the experience in greater detail. This allowed us to
+						validate navigation ideas and identify any issues or areas for
+						improvement.
+					</p>
+				</div>
+			</div>
+
 			{/* Full image block */}
 			<div className='flex flex-row justify-center mb-24'>
 				<img
@@ -147,16 +260,45 @@ const MimoRestaurant = () => {
 
 			{/* Text block */}
 			<div className='flex flex-row justify-center mb-24'>
-				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
-					<p className='text-orange font-bebas text-section-subtitle'>
-						DINNER IS SERVED
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Testing and iteration
 					</p>
 					<p className=''>
-						After the approval of wireframes and navigation flow, we developed
-						the final visual concept of the website, which generated an
-						incredible experience with the ingredients we had available,
-						providing easy, intuitive, and elegant navigation for customers in a
-						way that reflects the values of Mimo Restaurant brand.
+						After several rounds of testing and iterating on the navigation and
+						design, we conducted user testing interviews to validate the final
+						design and user flow. The feedback from customers and other
+						stakeholders was excellent. Everyone navigated the website
+						seamlessly and understood its functionality immediately. Only minor
+						adjustments were needed following this testing round.
+					</p>
+				</div>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Launch and results
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>Feedback: </span>The website
+						launch was a success with positive feedback from the restaurant’s
+						customers. They appreciated the thoughtful design and effort put
+						into creating an exceptional navigation experience, helping them
+						easily find the perfect dish for their special dinner. process of
+						the website.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							Reducing Cognitive Load:
+						</span>{' '}
+						To minimize cognitive load while browsing the menu, we divided it
+						into several categories, each with its own accordion. Each dish is
+						accompanied by a picture, allowing customers to see what their meal
+						will look like before ordering. Additionally, illustrations and
+						guides about allergens were included to ensure users can enjoy their
+						meal safely.
 					</p>
 				</div>
 			</div>
@@ -237,7 +379,7 @@ const MimoRestaurant = () => {
 					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
 						<Link
 							className='flex flex-row gap-3 items-center'
-							to={'/bbseguros'}>
+							to={'/febraban-news'}>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
 								width='10.784'
@@ -272,7 +414,7 @@ const MimoRestaurant = () => {
 					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
 						<Link
 							className='flex flex-row text-right gap-3 items-center'
-							to={'/febraban-news'}>
+							to={'/bbseguros'}>
 							<p className='font-bold'>Next project</p>
 
 							<svg
