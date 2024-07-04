@@ -100,54 +100,212 @@ const FebrabanNews = () => {
 			</div>
 
 			{/* Text block */}
-			<div className={`flex flex-row mt-10 justify-center mb-24`}>
-				<p className='w-[90%] sm:basis-2/3 text-center'>
-					In 2020, the world experienced an unimaginable period. In Brazil, the
-					COVID-19 pandemic affected the health of millions of people, along
-					with a growing number of Brazilians who lost their jobs, and
-					consequently, lost the ability to provide for their families.
-					Furthermore, due to a lack of information, other misinformation
-					campaigns and scams began to emerge, trying to take advantage of the
-					chaotic situation the country found itself in regarding its health and
-					economy. In such a devastating moment, FEBRABAN (Brazilian Federation
-					of Banks) decided to create a journalistic channel where all
-					Brazilians could receive news related to the economy, the emergency
-					aid they were entitled to, and alerts for preventing scams that were
-					being perpetrated. All this news was provided through the new website
-					created by FEBRABAN NEWS. News directly from the source that helped in
-					deciding the course of the economy.
-				</p>
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Project Overview
+					</p>
+					<p className=''>
+						In 2020, the world faced an unprecedented crisis. In Brazil, the
+						COVID-19 pandemic profoundly impacted public health, leading to
+						widespread job losses and economic instability. Amidst this turmoil,
+						misinformation campaigns and scams took advantage of the chaotic
+						situation, further complicating matters. In response to these
+						challenges, FEBRABAN (Brazilian Federation of Banks) launched
+						FEBRABAN News, a journalistic channel dedicated to delivering
+						reliable information to all Brazilians. The website quickly became a
+						vital source for economic news, updates on emergency aid programs,
+						and alerts to prevent scams. Journalists provided comprehensive
+						coverage through articles, podcasts, and video interviews with
+						politicians, business leaders, and economists. This initiative
+						ensured that citizens had access to accurate information directly
+						from authoritative sources, crucial for navigating the economic
+						uncertainties caused by the pandemic.
+					</p>
+				</div>
 			</div>
 
-			{/* Video block */}
-			<div className='flex flex-row justify-center'>
-				<div className='flex flex-row mb-24 w-[100%] sm:w-[80%]'>
-					<iframe
-						className='w-full h-[250px] sm:h-[540px]'
-						title='febraban-news-video'
-						width='960'
-						height='540'
-						src='https://www.youtube.com/embed/1IesX0ILNnc'
-						frameBorder='0'
-						allowFullScreen></iframe>
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_img7.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Challenge Statement
+					</p>
+					<p className=''>
+						Launching the website promptly was crucial due to the urgency of
+						addressing scams involving banking institutions and providing
+						essential information during the pandemic. Time constraints and
+						project organization posed significant challenges. Therefore,
+						assembling a well-aligned and focused team was essential to the
+						project's success.
+					</p>
 				</div>
 			</div>
 
 			{/* Text block */}
 			<div className='flex flex-row justify-center mb-24'>
-				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
-					<p className='text-orange font-bebas text-section-subtitle'>
-						PROJECT DEVELOPMENT
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Objectives
 					</p>
 					<p className=''>
-						In order for the website to provide a better experience, we
-						developed a modern visual language aimed at creating a website
-						focused on delivering news almost in real time. We produced a
-						podcast in addition to explanatory and journalistic videos featuring
-						interviews directly from the key authorities making decisions about
-						the economy.
+						<span className='font-bold text-orange'>Navigation:</span> Design an
+						intuitive website that seamlessly integrates various types of media,
+						including articles, videos, and audios updated in real time.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>User Flow:</span> Ensure the
+						website’s navigation is straightforward and easy to understand,
+						considering the dynamic nature of frequently updated content.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							Architecture and Hierarchy:
+						</span>{' '}
+						Prioritize and highlight high-priority information to enhance user
+						accessibility and ensure important content is prominently displayed.
 					</p>
 				</div>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Research and strategy
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							User Persona and Stories:
+						</span>{' '}
+						We developed user personas based on interviews with FEBRABAN
+						managers to accurately reflect the typical users and their routines.
+						These personas guided the entire design process and inspired the
+						creation of user stories.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>Competitor Analysis:</span>{' '}
+						We conducted a competitor analysis to define a visual style and
+						understand how local news websites operate. This helped us gather
+						information for brand positioning and identify areas for
+						improvement.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_personas.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						User Flow
+					</p>
+					<p className=''>
+						The user flow was designed to be straightforward and comprehensible,
+						accommodating a wide range of information that would be updated
+						frequently. Key considerations included:
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							1. Ease of Navigation:
+						</span>{' '}
+						Ensuring users could easily find and access different types of
+						content.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							2. Content Accessibility:
+						</span>{' '}
+						Highlighting high-priority information and making it readily
+						visible.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							3. Seamless Media Integration:
+						</span>{' '}
+						Providing a unified experience for articles, videos, and audios.
+					</p>
+					<p className=''>
+						By focusing on these aspects, we aimed to create a user-friendly
+						environment that met the informational needs of our audience.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_map.jpg'
+					}
+					alt=''
+				/>
+			</div>
+
+			{/* Text block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Prototypes & Wireframes
+					</p>
+					<p className=''>
+						After defining the user flow, we moved on to wireframing, which
+						involved:
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>1. Initial Sketches:</span>{' '}
+						Outlining the basic structure and layout of the website, focusing on
+						key elements such as the homepage, navigation menus, and content
+						sections.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							2. Iterative Refinement:
+						</span>{' '}
+						Testing and refining the wireframes through multiple iterations to
+						improve the user experience.
+					</p>
+					<p className=''>
+						<span className='font-bold text-orange'>
+							3. Design Consistency:
+						</span>{' '}
+						Establishing a simple design system to ensure visual coherence
+						across the website.
+					</p>
+				</div>
+			</div>
+
+			{/* Full image block */}
+			<div className='flex flex-row justify-center mb-24'>
+				<img
+					src={
+						process.env.PUBLIC_URL +
+						'/images/projects/febraban-news/febraban_prototypes.jpg'
+					}
+					alt=''
+				/>
 			</div>
 
 			{/* Full image block */}
@@ -163,17 +321,25 @@ const FebrabanNews = () => {
 
 			{/* Text block */}
 			<div className='flex flex-row justify-center mb-24'>
-				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
-					<p className='text-orange font-bebas text-section-subtitle'>
-						REAL-TIME INFORMATION ABOUT THE ECONOMY
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Results
 					</p>
+					<p className='font-bold text-orange'>Trusted Source of Information</p>
+					<p className='mb-4'>
+						FEBRABAN News quickly became a trusted source for economic updates
+						and emergency aid information. It played a crucial role in
+						preventing scams with timely alerts and received positive feedback
+						for its clear, accessible design, enhancing the user experience.
+					</p>
+					<p className='font-bold text-orange'>Business Impact</p>
 					<p className=''>
-						The project was a success, providing quality, transparent, and
-						relevant information during the pandemic period, helping people
-						avoid falling victim to scams, providing knowledge about key
-						processes related to bank services, as well as access to relevant
-						information about the economy that directly impacted the lives of
-						all Brazilians.
+						The launch strengthened public trust in FEBRABAN and its associated
+						banks, improved user engagement, and ensured critical information
+						reached those in need. The success of FEBRABAN News shows the
+						importance of reliable information and effective communication
+						during crises, reinforcing FEBRABAN’s commitment to supporting the
+						Brazilian public.
 					</p>
 				</div>
 			</div>
@@ -213,34 +379,9 @@ const FebrabanNews = () => {
 
 			{/* Text block */}
 			<div className='flex flex-row justify-center mb-24'>
-				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
-					<p className='text-orange font-bebas text-section-subtitle'>LIVE</p>
-					<p className=''>
-						To ensure the information was relevant, we conducted interviews with
-						key decision-makers in the economy such as politicians, economists,
-						central bank authorities, entrepreneurs, and researchers. All
-						interviews were conducted in real-time through Live streams that
-						took place on YouTube, LinkedIn, and Instagram.
-					</p>
-				</div>
-			</div>
-
-			{/* Full image block */}
-			<div className='flex flex-row justify-center mb-24'>
-				<img
-					src={
-						process.env.PUBLIC_URL +
-						'/images/projects/febraban-news/febraban_img7.jpg'
-					}
-					alt=''
-				/>
-			</div>
-
-			{/* Text block */}
-			<div className='flex flex-row justify-center mb-24'>
-				<div className='flex flex-col text-center w-[90%] sm:basis-2/3'>
-					<p className='text-orange font-bebas text-section-subtitle'>
-						ART DIRECTION AND PROMOTION
+				<div className='flex flex-col text-left w-[90%] sm:basis-2/3'>
+					<p className='uppercase text-orange text-center font-bebas text-section-subtitle'>
+						Art Direction and Promotion
 					</p>
 					<p className=''>
 						To promote the website and all the activities taking place, we
@@ -317,7 +458,7 @@ const FebrabanNews = () => {
 					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
 						<Link
 							className='flex flex-row text-right gap-3 items-center'
-							to={'/mimo-restaurant'}>
+							to={'/bbseguros'}>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
 								width='10.784'
@@ -352,7 +493,7 @@ const FebrabanNews = () => {
 					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
 						<Link
 							className='flex flex-row text-right gap-3 items-center'
-							to={'/bbseguros'}>
+							to={'/mimo-restaurant'}>
 							<p className='font-bold'>Next project</p>
 
 							<svg
