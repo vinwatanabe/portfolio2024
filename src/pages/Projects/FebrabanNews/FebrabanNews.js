@@ -458,7 +458,7 @@ const FebrabanNews = () => {
 					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
 						<Link
 							className='flex flex-row text-right gap-3 items-center'
-							to={'/bbseguros'}>
+							to={'/mimo-restaurant'}>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
 								width='10.784'
@@ -493,7 +493,7 @@ const FebrabanNews = () => {
 					<div className='text-orange hover:text-lightBlue stroke-orange hover:stroke-lightBlue cursor-pointer'>
 						<Link
 							className='flex flex-row text-right gap-3 items-center'
-							to={'/mimo-restaurant'}>
+							to={'/bbseguros'}>
 							<p className='font-bold'>Next project</p>
 
 							<svg
